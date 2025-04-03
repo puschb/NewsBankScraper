@@ -1,0 +1,5270 @@
+{
+  "basePath": "\/apps\/news\/",
+  "pathPrefix": "",
+  "setHasJsCookie": 0,
+  "nbcore_zustatlog_global": {
+    "api_path": "nb-api\/js\/zustatlog",
+    "class_zustat_link": "zustat__link",
+    "class_external_link": "external_link"
+  },
+  "ajaxPageState": {
+    "theme": "nb_gnus",
+    "theme_token": "jN9tzaIykqF3EgDcSOvlSpv2QDfz4efHkXEnVvXmDIw",
+    "jquery_version": "1.12",
+    "jquery_version_token": "vwntdWhgx_qAYTmDFV4gkR805BDV2zVGQuMBD0eeC8Q",
+    "js": {
+      "sites\/all\/modules\/contrib\/picture\/picturefill\/picturefill.min.js": 1,
+      "sites\/all\/modules\/contrib\/picture\/picture.min.js": 1,
+      "sites\/all\/modules\/features\/gnus_advanced_search\/js\/gnus_advanced_search.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_prm\/scripts\/nbcore_prm.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_prm\/nbcore_prm_alerts\/scripts\/nbcore_prm_alerts.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_prm\/nbcore_prm_articles\/scripts\/nbcore_prm_articles.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_prm\/nbcore_prm_searches\/scripts\/nbcore_prm_searches.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_cache\/scripts\/nbcore_cache.js": 1,
+      "sites\/all\/modules\/features\/gnus_advanced_search\/js\/gnus_kidspage_search.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_react_browse\/modules\/nbcore_react_browse_navigator\/scripts\/nbcore_react_browse_navigator.js": 1,
+      "0": 1,
+      "sites\/all\/modules\/custom\/nbcore_sort\/scripts\/nbcore_sort__link-list.js": 1,
+      "sites\/all\/modules\/features\/gnus_actions_bar\/js\/gnus_actions_bar.js": 1,
+      "sites\/all\/modules\/features\/gnus_actions_bar\/js\/gnus_actions_bar_print_download.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_zustatlog\/scripts\/nbcore_zustatlog__behaviors.js": 1,
+      "sites\/all\/modules\/features\/gnus_menu\/js\/gnus-accessible-menu-plugin.js": 1,
+      "sites\/all\/modules\/features\/gnus_prm\/js\/gnus-prm-menu.js": 1,
+      "\/\/apis.google.com\/js\/api.js": 1,
+      "sites\/all\/modules\/features\/gnus_actions_bar\/js\/gnus_actions_bar_google_drive_pane.js": 1,
+      "sites\/all\/themes\/nb_gnus\/js\/accessibility_features.js": 1,
+      "sites\/all\/modules\/features\/gnus_navigators\/scripts\/gnus_navigators_date_range.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_google\/js\/google.request.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_google\/js\/google.auth.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_google\/js\/google.drive.js": 1,
+      "sites\/all\/modules\/features\/gnus_search_hits\/scripts\/gnus_search_hits.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_google\/js\/google.client.js": 1,
+      "sites\/all\/modules\/features\/gnus_search_hits\/scripts\/nbcore_search_hits_extended_previews.js": 1,
+      "sites\/all\/modules\/features\/gnus_branding\/js\/gnus_branding.js": 1,
+      "sites\/all\/modules\/features\/gnus_email_alerts\/js\/gnus_email_alerts.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_action_button\/scripts\/nbcore_action_button.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_action_button\/scripts\/PageUrlActionButtonPlugin.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_prm\/nbcore_prm_searches\/scripts\/PrmSearchesActionButtonPlugin.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_search\/dist\/SelectedSearchHitsActionButtonPlugin.min.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_prm\/nbcore_prm_articles\/scripts\/PrmArticlesActionButtonPlugin.js": 1,
+      "sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.12\/jquery.min.js": 1,
+      "1": 1,
+      "misc\/jquery-extend-3.4.0.js": 1,
+      "misc\/jquery-html-prefilter-3.5.0-backport.js": 1,
+      "misc\/jquery.once.js": 1,
+      "misc\/drupal.js": 1,
+      "sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_browser.js": 1,
+      "sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js": 1,
+      "sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js": 1,
+      "sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js": 1,
+      "sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js": 1,
+      "misc\/ui\/jquery.ui.position-1.13.0-backport.js": 1,
+      "sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tooltip.min.js": 1,
+      "sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.form\/4\/jquery.form.min.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_reactjs\/dist\/react.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_reactjs\/dist\/react-dom.js": 1,
+      "misc\/states.js": 1,
+      "misc\/form-single-submit.js": 1,
+      "misc\/ajax.js": 1,
+      "sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js": 1,
+      "sites\/all\/modules\/contrib\/entityreference\/js\/entityreference.js": 1,
+      "sites\/all\/modules\/features\/gnus_menu\/js\/change_db.js": 1,
+      "sites\/all\/modules\/features\/gnus_starter_feature\/scripts\/gnus-starter-feature.js": 1,
+      "sites\/all\/modules\/features\/gnus_breadcrumbs\/scripts\/gnus_breadcrumbs.js": 1,
+      "sites\/all\/modules\/features\/gnus_multidoc\/scripts\/gnus_multidoc.js": 1,
+      "sites\/all\/modules\/features\/gnus_zustat\/scripts\/gnus_zustat.js": 1,
+      "sites\/all\/modules\/custom\/nbbase\/js\/nbbase.request.js": 1,
+      "misc\/textarea.js": 1,
+      "misc\/progress.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_react_browse\/dist\/nbcore_react_browse_bundle.js": 1,
+      "sites\/all\/libraries\/d3\/d3.js": 1,
+      "sites\/all\/libraries\/d3-tip\/dist\/index.js": 1,
+      "sites\/all\/libraries\/nouislider\/distribute\/nouislider.js": 1,
+      "sites\/all\/modules\/features\/gnus_navigators\/scripts\/gnus_navigators.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_search\/dist\/nbcore_search_hits_pane.min.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_search\/dist\/nbcore_search_hits_cache_selections.min.js": 1,
+      "sites\/all\/modules\/features\/gnus_actions_bar\/js\/gnus_actions_bar_email.js": 1,
+      "sites\/all\/modules\/features\/gnus_shared\/scripts\/gnus-shared.js": 1,
+      "sites\/all\/modules\/features\/gnus_advanced_search_form\/js\/gnus-advanced-search-form.js": 1,
+      "sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js": 1,
+      "https:\/\/www.googletagmanager.com\/gtag\/js?id=G-VR37SQR64F": 1,
+      "2": 1,
+      "sites\/all\/modules\/custom\/nbcore_downtime\/js\/nbcore-downtime.js": 1,
+      "sites\/all\/modules\/features\/gnus_menu\/js\/gnus_menu.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_lti\/dist\/nbcore_lti.behaviors-clever.js": 1,
+      "sites\/all\/modules\/custom\/nbbase\/js\/nbbase.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_search\/dist\/nbcore_search_hits_extended_previews_core.min.js": 1,
+      "sites\/all\/modules\/custom\/nbcore_branding\/dist\/nbcore_branding_donor_bundle.js": 1,
+      "sites\/all\/modules\/features\/gnus_prm\/js\/gnus-prm.js": 1,
+      "sites\/all\/themes\/nb_gnus\/libraries\/enquire\/dist\/enquire.min.js": 1,
+      "sites\/all\/themes\/nb_gnus\/libraries\/html5shiv\/dist\/html5shiv.js": 1,
+      "sites\/all\/themes\/nb_gnus\/libraries\/matchmedia\/matchMedia.js": 1,
+      "sites\/all\/themes\/nb_gnus\/js\/css-vars-ponyfill.min.js": 1,
+      "sites\/all\/themes\/nb_gnus\/js\/script.js": 1
+    },
+    "css": {
+      "modules\/system\/system.base.css": 1,
+      "modules\/system\/system.menus.css": 1,
+      "modules\/system\/system.messages.css": 1,
+      "modules\/system\/system.theme.css": 1,
+      "misc\/ui\/jquery.ui.core.css": 1,
+      "misc\/ui\/jquery.ui.theme.css": 1,
+      "misc\/ui\/jquery.ui.tooltip.css": 1,
+      "modules\/field\/theme\/field.css": 1,
+      "modules\/node\/node.css": 1,
+      "sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css": 1,
+      "modules\/user\/user.css": 1,
+      "sites\/all\/modules\/contrib\/views\/css\/views.css": 1,
+      "sites\/all\/modules\/contrib\/ctools\/css\/ctools.css": 1,
+      "sites\/all\/modules\/contrib\/panels\/css\/panels.css": 1,
+      "sites\/all\/themes\/nb_gnus\/panels-layouts\/gnus_results\/gnus-results-layout.css": 1,
+      "sites\/all\/modules\/features\/gnus_navigators\/css\/gnus_navigators_search_nav_pane.css": 1,
+      "sites\/all\/modules\/custom\/nbcore_navigator_items\/css\/nbcore_navigator_items.css": 1,
+      "sites\/all\/themes\/nb_gnus\/panels-layouts\/gnus_header_results\/gnus-header-results.css": 1,
+      "sites\/all\/themes\/nb_gnus\/panels.css": 1,
+      "sites\/all\/themes\/nb_gnus\/views.css": 1,
+      "sites\/all\/themes\/nb_gnus\/comment.theme.css": 1,
+      "sites\/all\/themes\/nb_gnus\/field.theme.css": 1,
+      "sites\/all\/themes\/nb_gnus\/search.theme.css": 1,
+      "sites\/all\/themes\/nb_gnus\/system.theme.css": 1,
+      "sites\/all\/themes\/nb_gnus\/comment.menus.theme.css": 1,
+      "sites\/all\/themes\/nb_gnus\/user.base.css": 1,
+      "sites\/all\/themes\/nb_gnus\/user.theme.css": 1,
+      "sites\/all\/themes\/nb_gnus\/css\/style.css": 1
+    }
+  },
+  "gnus_advanced_search": {
+    "list_id": "presearch-map__list",
+    "map_id": "presearch-map__map",
+    "search_path": "advanced-search",
+    "ajax_path": "ajax\/get-map-data",
+    "sort_idx": 0
+  },
+  "gnus_prm": {
+    "prmActionModalPath": "ajax\/prm-action"
+  },
+  "nbcore_multidocs_global": {
+    "get_path": "nb-multidocs\/get"
+  },
+  "nbcore_prm_global": {
+    "user_create_path": "nb-prm\/js\/user\/create",
+    "user_update_path": "nb-prm\/js\/user\/update",
+    "getinfo_path": "nb-prm\/js\/getinfo",
+    "login_path": "nb-prm\/js\/login",
+    "logout_path": "nb-prm\/js\/logout"
+  },
+  "nbcore_prm_alerts_global": {
+    "alerts_form_create_wrapper": "nbcore_prm_alerts__create-form",
+    "alerts_get_path": "nb-prm\/js\/alerts\/get",
+    "alerts_create_path": "nb-prm\/js\/alerts\/create",
+    "alerts_update_path": "nb-prm\/js\/alerts\/update",
+    "alerts_unsubscribe_path": "nb-prm\/js\/alerts\/unsubscribe",
+    "alerts_delete_path": "nb-prm\/js\/alerts\/delete"
+  },
+  "nbcore_prm_articles_global": {
+    "articles_create_path": "nb-prm\/js\/articles\/create",
+    "articles_get_path": "nb-prm\/js\/articles\/get",
+    "articles_update_path": "nb-prm\/js\/articles\/update",
+    "articles_delete_path": "nb-prm\/js\/articles\/delete"
+  },
+  "nbcore_prm_searches_global": {
+    "searches_create_path": "nb-prm\/js\/searches\/create",
+    "searches_get_path": "nb-prm\/js\/searches\/get",
+    "searches_update_path": "nb-prm\/js\/searches\/update",
+    "searches_delete_path": "nb-prm\/js\/searches\/delete"
+  },
+  "nbbase": {
+    "ipAddress": "128.143.223.180",
+    "baseUrl": "https:\/\/infoweb.newsbank.com\/apps\/news",
+    "drupalBasePath": "\/apps\/news\/",
+    "zustatOverrideCookie": "nbzustat",
+    "sitelinksREM": "nbnews_drupal",
+    "product": "WORLDNEWS",
+    "authToken": "XMoKSpvkEi5CkOZHy8J4VQNsWns",
+    "productSearchTerms": [],
+    "searchTerms": "immigration; migrant; migration; border",
+    "snippetSearchTerms": "immigration|migrant|migration|border"
+  },
+  "nbcore_cache_global": {
+    "cache_set_path": "nb-cache\/js\/set",
+    "cache_get_path": "nb-cache\/js\/get",
+    "cache_remove_path": "nb-cache\/js\/remove",
+    "cache_doc_set_path": "nb-cache-doc\/js\/set",
+    "cache_doc_get_path": "nb-cache-doc\/js\/get",
+    "cache_doc_remove_path": "nb-cache-doc\/js\/remove"
+  },
+  "gnus_advanced_search_form": {
+    "ajax_path": "ajax\/get-lexile-data",
+    "haystack": "country:USA!USA\/stp:Web-Only+Source!Web-Only+Source\/continent:North+America!North+America\/city:Chicago+%28IL%29!Chicago+%28IL%29\/language:English!English",
+    "valBase1": true
+  },
+  "nbcore_search_hits_pane__gnus-search-hits-pane": {
+    "DEDUPED_VALUES": {
+      "DEDUPES_ON": 2,
+      "DEDUPES_OFF": 0,
+      "DEDUPED_MAX": 60,
+      "DEFAULT_MAX": 20
+    },
+    "ascii_extended_preview_length": "1500",
+    "extended_preview_zustat_category": "co_sc_results_preview",
+    "ha_extended_preview_highlight_color": "FFFF00",
+    "ha_extended_preview_highlight_terms": 1,
+    "ha_extended_preview_height": "600",
+    "ha_extended_preview_width": "600",
+    "extended_preview_loading_message": "Loading...",
+    "ha_snippet_highlight_terms": 1,
+    "ha_snippet_height": "150",
+    "ha_snippet_width": "350"
+  },
+  "nbcore_search_global": {
+    "getselections_path": "nb-search\/js\/getselections",
+    "getsnippets_path": "\/apps\/news\/nb-search\/js\/getsnippets"
+  },
+  "nbcore_openseadragon": {
+    "drupal_base_path": "\/apps\/news\/",
+    "module_base_path": "sites\/all\/modules\/custom\/nbcore_openseadragon"
+  },
+  "nbcore_react_browse": {
+    "navigator": {
+      "load_path": "nbcore-react-browse-navigator\/load",
+      "apply_path": "nbcore-react-browse-navigator\/apply"
+    }
+  },
+  "nbcore_action_buttons": {
+    "nbcore-action-button-prm-searches-create": {
+      "button_class": "button-saved-search",
+      "button_label": "Save Search",
+      "container_class": "button-saved-search__wrapper",
+      "instance_id": "nbcore-action-button-prm-searches-create",
+      "override_title": 0,
+      "override_title_heading": "h2",
+      "override_title_text": "",
+      "react_browse_instance_id": "",
+      "search_hit_pane_instance_id": "",
+      "source_type": "PageUrlActionButtonPlugin",
+      "target_prm_alerts_endpoint": "",
+      "target_prm_articles_endpoint": "",
+      "target_prm_searches_endpoint": "create",
+      "target_type": "PrmSearchesActionButtonPlugin"
+    },
+    "nbcore-action-button-pane-save-articles": {
+      "button_class": "actions-bar__button actions-bar__button--save-articles",
+      "button_label": "Save to My Folder",
+      "container_class": "actions-bar__item actions-bar__item--save-articles",
+      "instance_id": "nbcore-action-button-pane-save-articles",
+      "override_title": 0,
+      "override_title_heading": "h2",
+      "override_title_text": "",
+      "react_browse_instance_id": "",
+      "search_hit_pane_instance_id": "search-hits-gnus-search-hits-pane",
+      "source_type": "SelectedSearchHitsActionButtonPlugin",
+      "target_prm_articles_endpoint": "create",
+      "target_type": "PrmArticlesActionButtonPlugin"
+    }
+  },
+  "nbcore_zustatlog": {
+    "nbcore-navigator-items-feedback-582233aad473c": {
+      "zustatCategoryOverride": "co_sc_navigator_postsearch"
+    },
+    "navigator-daterange5cca1ad5c4a41": {
+      "zustatCategoryOverride": "co_sc_postsearch_dateselector"
+    },
+    "navigator-datenav-lean5cf90a808de94": {
+      "zustatCategoryOverride": "co_sc_postsearch_datesearch"
+    },
+    "nbcore-navigator-items-57d80e3e18f1c": {
+      "zustatCategoryOverride": "co_sc_navigator_postsearch"
+    },
+    "nbcore-navigator-items-5ac39440b9551": {
+      "zustatCategoryOverride": "co_sc_navigator_postsearch"
+    },
+    "nbcore-navigator-items-595e4f114ddb9": {
+      "zustatCategoryOverride": "co_sc_navigator_postsearch"
+    },
+    "nbcore-navigator-items-5977aa8d25217": {
+      "zustatCategoryOverride": "co_sc_navigator_postsearch"
+    },
+    "nbcore-navigator-items-lexile-items": {
+      "zustatCategoryOverride": "co_sc_navigator_postsearch"
+    },
+    "nbcore-navigator-items-language": {
+      "zustatCategoryOverride": "co_sc_navigator_postsearch"
+    },
+    "gnus-search-hits-pane": {
+      "zustatCategoryOverride": "co_sc_view"
+    }
+  },
+  "nbcore_prm_alerts_form": {
+    "form_visible": false
+  },
+  "states": {
+    "#nbprm-create-anonymous-alert-schedule": {
+      "visible": {
+        ":input[name=\u0022frequency\u0022]": {
+          "value": "1 time a week"
+        }
+      }
+    },
+    "#edit-val-base-0--4": {
+      "invisible": [
+        {
+          "select[name=\u0022fld-base-0\u0022]": {
+            "value": "lexs"
+          }
+        },
+        {
+          "select[name=\u0022fld-base-0\u0022]": {
+            "value": "wct"
+          }
+        }
+      ]
+    },
+    "#edit-widget-fld-base-0-lexs": {
+      "visible": {
+        "select[name=\u0022fld-base-0\u0022]": {
+          "value": "lexs"
+        }
+      }
+    },
+    "#edit-widget-fld-base-0-wct": {
+      "visible": {
+        "select[name=\u0022fld-base-0\u0022]": {
+          "value": "wct"
+        }
+      }
+    },
+    "#edit-val-base-1--4": {
+      "invisible": [
+        {
+          "select[name=\u0022fld-base-1\u0022]": {
+            "value": "lexs"
+          }
+        },
+        {
+          "select[name=\u0022fld-base-1\u0022]": {
+            "value": "wct"
+          }
+        }
+      ]
+    },
+    "#edit-widget-fld-base-1-lexs": {
+      "visible": {
+        "select[name=\u0022fld-base-1\u0022]": {
+          "value": "lexs"
+        }
+      }
+    },
+    "#edit-widget-fld-base-1-wct": {
+      "visible": {
+        "select[name=\u0022fld-base-1\u0022]": {
+          "value": "wct"
+        }
+      }
+    },
+    "#edit-val-base-2--4": {
+      "invisible": [
+        {
+          "select[name=\u0022fld-base-2\u0022]": {
+            "value": "lexs"
+          }
+        },
+        {
+          "select[name=\u0022fld-base-2\u0022]": {
+            "value": "wct"
+          }
+        }
+      ]
+    },
+    "#edit-widget-fld-base-2-lexs": {
+      "visible": {
+        "select[name=\u0022fld-base-2\u0022]": {
+          "value": "lexs"
+        }
+      }
+    },
+    "#edit-widget-fld-base-2-wct": {
+      "visible": {
+        "select[name=\u0022fld-base-2\u0022]": {
+          "value": "wct"
+        }
+      }
+    },
+    "#edit-val-base-3--4": {
+      "invisible": [
+        {
+          "select[name=\u0022fld-base-3\u0022]": {
+            "value": "lexs"
+          }
+        },
+        {
+          "select[name=\u0022fld-base-3\u0022]": {
+            "value": "wct"
+          }
+        }
+      ]
+    },
+    "#edit-widget-fld-base-3-lexs": {
+      "visible": {
+        "select[name=\u0022fld-base-3\u0022]": {
+          "value": "lexs"
+        }
+      }
+    },
+    "#edit-widget-fld-base-3-wct": {
+      "visible": {
+        "select[name=\u0022fld-base-3\u0022]": {
+          "value": "wct"
+        }
+      }
+    },
+    "#edit-val-base-4": {
+      "invisible": [
+        {
+          "select[name=\u0022fld-base-4\u0022]": {
+            "value": "lexs"
+          }
+        },
+        {
+          "select[name=\u0022fld-base-4\u0022]": {
+            "value": "wct"
+          }
+        }
+      ]
+    },
+    "#edit-widget-fld-base-4-lexs": {
+      "visible": {
+        "select[name=\u0022fld-base-4\u0022]": {
+          "value": "lexs"
+        }
+      }
+    },
+    "#edit-widget-fld-base-4-wct": {
+      "visible": {
+        "select[name=\u0022fld-base-4\u0022]": {
+          "value": "wct"
+        }
+      }
+    },
+    "#edit-val-base-5": {
+      "invisible": [
+        {
+          "select[name=\u0022fld-base-5\u0022]": {
+            "value": "lexs"
+          }
+        },
+        {
+          "select[name=\u0022fld-base-5\u0022]": {
+            "value": "wct"
+          }
+        }
+      ]
+    },
+    "#edit-widget-fld-base-5-lexs": {
+      "visible": {
+        "select[name=\u0022fld-base-5\u0022]": {
+          "value": "lexs"
+        }
+      }
+    },
+    "#edit-widget-fld-base-5-wct": {
+      "visible": {
+        "select[name=\u0022fld-base-5\u0022]": {
+          "value": "wct"
+        }
+      }
+    },
+    "#edit-val-base-6": {
+      "invisible": [
+        {
+          "select[name=\u0022fld-base-6\u0022]": {
+            "value": "lexs"
+          }
+        },
+        {
+          "select[name=\u0022fld-base-6\u0022]": {
+            "value": "wct"
+          }
+        }
+      ]
+    },
+    "#edit-widget-fld-base-6-lexs": {
+      "visible": {
+        "select[name=\u0022fld-base-6\u0022]": {
+          "value": "lexs"
+        }
+      }
+    },
+    "#edit-widget-fld-base-6-wct": {
+      "visible": {
+        "select[name=\u0022fld-base-6\u0022]": {
+          "value": "wct"
+        }
+      }
+    },
+    "#edit-val-base-7": {
+      "invisible": [
+        {
+          "select[name=\u0022fld-base-7\u0022]": {
+            "value": "lexs"
+          }
+        },
+        {
+          "select[name=\u0022fld-base-7\u0022]": {
+            "value": "wct"
+          }
+        }
+      ]
+    },
+    "#edit-widget-fld-base-7-lexs": {
+      "visible": {
+        "select[name=\u0022fld-base-7\u0022]": {
+          "value": "lexs"
+        }
+      }
+    },
+    "#edit-widget-fld-base-7-wct": {
+      "visible": {
+        "select[name=\u0022fld-base-7\u0022]": {
+          "value": "wct"
+        }
+      }
+    },
+    "#edit-val-base-8": {
+      "invisible": [
+        {
+          "select[name=\u0022fld-base-8\u0022]": {
+            "value": "lexs"
+          }
+        },
+        {
+          "select[name=\u0022fld-base-8\u0022]": {
+            "value": "wct"
+          }
+        }
+      ]
+    },
+    "#edit-widget-fld-base-8-lexs": {
+      "visible": {
+        "select[name=\u0022fld-base-8\u0022]": {
+          "value": "lexs"
+        }
+      }
+    },
+    "#edit-widget-fld-base-8-wct": {
+      "visible": {
+        "select[name=\u0022fld-base-8\u0022]": {
+          "value": "wct"
+        }
+      }
+    },
+    "#edit-val-base-9": {
+      "invisible": [
+        {
+          "select[name=\u0022fld-base-9\u0022]": {
+            "value": "lexs"
+          }
+        },
+        {
+          "select[name=\u0022fld-base-9\u0022]": {
+            "value": "wct"
+          }
+        }
+      ]
+    },
+    "#edit-widget-fld-base-9-lexs": {
+      "visible": {
+        "select[name=\u0022fld-base-9\u0022]": {
+          "value": "lexs"
+        }
+      }
+    },
+    "#edit-widget-fld-base-9-wct": {
+      "visible": {
+        "select[name=\u0022fld-base-9\u0022]": {
+          "value": "wct"
+        }
+      }
+    }
+  },
+  "ajax": {
+    "nbprm-create-anonymous-alert-submit": {
+      "callback": "nbcore_prm_alerts_create_form_callback",
+      "wrapper": "nbcore_prm_alerts__create-form",
+      "effect": "fade",
+      "event": "mousedown",
+      "keypress": true,
+      "prevent": "click",
+      "url": "\/apps\/news\/system\/ajax",
+      "submit": {
+        "_triggering_element_name": "",
+        "_triggering_element_value": "Create Alert"
+      }
+    },
+    "edit-email-submit": {
+      "callback": "nbcore_email_send_email_form_callback",
+      "wrapper": "nbcore-email-form-search-results",
+      "effect": "fade",
+      "event": "mousedown",
+      "keypress": true,
+      "prevent": "click",
+      "url": "\/apps\/news\/system\/ajax",
+      "submit": {
+        "_triggering_element_name": "submit",
+        "_triggering_element_value": "Send"
+      }
+    },
+    "edit-email-submit--2": {
+      "callback": "nbcore_email_send_email_form_callback",
+      "wrapper": "customer-service-email",
+      "effect": "fade",
+      "event": "mousedown",
+      "keypress": true,
+      "prevent": "click",
+      "url": "\/apps\/news\/system\/ajax",
+      "submit": {
+        "_triggering_element_name": "submit",
+        "_triggering_element_value": "Send"
+      }
+    },
+    "edit-email-submit--3": {
+      "callback": "nbcore_email_send_email_form_callback",
+      "wrapper": "help-email",
+      "effect": "fade",
+      "event": "mousedown",
+      "keypress": true,
+      "prevent": "click",
+      "url": "\/apps\/news\/system\/ajax",
+      "submit": {
+        "_triggering_element_name": "submit",
+        "_triggering_element_value": "Send"
+      }
+    }
+  },
+  "urlIsAjaxTrusted": {
+    "\/apps\/news\/system\/ajax": true,
+    "\/apps\/news\/results?sort=YMD_date:D\u0026p=WORLDNEWS\u0026hide_duplicates=2\u0026t=country:USA!USA\/stp:Web-Only%2BSource!Web-Only%2BSource\/continent:North%2BAmerica!North%2BAmerica\/city:Chicago%2B%2528IL%2529!Chicago%2B%2528IL%2529\/language:English!English\u0026maxresults=60\u0026f=advanced\u0026offset=62\u0026val-base-0=immigration\u0026fld-base-0=alltext\u0026bln-base-1=or\u0026val-base-1=migrant\u0026fld-base-1=alltext\u0026bln-base-2=or\u0026val-base-2=migration\u0026fld-base-2=alltext\u0026bln-base-3=or\u0026val-base-3=border\u0026fld-base-3=Title\u0026fld-nav-0=YMD_date\u0026val-nav-0=2016+-+2025": true
+  },
+  "nbapi": {
+    "search_params": {
+      "xslt": "gnus\/platform_fedsearch_v8",
+      "type": "triplet",
+      "navigators": "v4",
+      "auth": "XMoKSpvkEi5CkOZHy8J4VQNsWns",
+      "product": "WORLDNEWS",
+      "maxhits": 60,
+      "acronymCount": "1",
+      "conciseMetadata": "true",
+      "recommenders": 0,
+      "recommendations": 0,
+      "offset": 3,
+      "sortfield": "YMD_date:D",
+      "spellcheck": "true",
+      "getIssueCount": "true",
+      "hide_duplicates": "2",
+      "metaFullLocation": [],
+      "metaFullDate": [],
+      "add_video": "4",
+      "haystack": "country:USA!USA\/stp:Web-Only+Source!Web-Only+Source\/continent:North+America!North+America\/city:Chicago+%28IL%29!Chicago+%28IL%29\/language:English!English",
+      "usePermuter": false,
+      "p_field_base-0": "alltext",
+      "p_text_base-0": "immigration",
+      "p_field_base-1": "alltext",
+      "p_text_base-1": "migrant",
+      "p_bool_base-1": "or",
+      "p_field_base-2": "alltext",
+      "p_text_base-2": "migration",
+      "p_bool_base-2": "or",
+      "p_field_base-3": "Title",
+      "p_text_base-3": "border",
+      "p_bool_base-3": "or",
+      "p_field_nav-0": "YMD_date",
+      "p_text_nav-0": "2016 - 2025",
+      "p_params_nav-0": "date:B,E",
+      "extendedPreviewLength": "500",
+      "navoutput": "pubname:full:count:d::city:full:count:d::stp:full:label:a::year:full:count:d::articletype:full:count:d::era:full:count:d::presidentialera:full:count:d::language:full:count:d::decade:full:label:a::year:full:label:a::yrmo:full:value:a::mody:full:value:a::summarized",
+      "nav_paging": "pubname:1:4::city:1:4",
+      "zustat_category": "co_sc_customized"
+    },
+    "search_options": {
+      "output_format": "xml"
+    }
+  },
+  "nbcore_branding": {
+    "donor_branding": []
+  },
+  "nbcore_react_browse__nbcore-react-browse-table-pane-source-name-filter-modal": {
+    "instance_id": "nbcore-react-browse-table-pane-source-name-filter-modal",
+    "errors": [],
+    "config": {
+      "instance_id": "nbcore-react-browse-table-pane-source-name-filter-modal",
+      "react_path": "results",
+      "source_type": "NavigatorReactBrowseDataSource",
+      "results_per_page": "100",
+      "enable_filter": 1,
+      "use_advanced_filter_options": 1,
+      "defer_render": 1,
+      "strings": {
+        "button_prev_text": "Previous",
+        "button_next_text": "Next",
+        "filter_placeholder_text": "Enter Name of Source or Location",
+        "filter_no_match": "No matches found.",
+        "results_count_text": "Select Source Names (__START__-__END__  of __TOTAL__)",
+        "results_count_text_empty": "Select Source Names",
+        "visible_range_text": "Select Source Names (__START__-__END__  of __TOTAL__)",
+        "filtered_message_text": "(Filtered from __TOTAL__ __PLURAL__)"
+      },
+      "url_query": {
+        "p": "WORLDNEWS",
+        "t": "country:USA!USA\/stp:Web-Only+Source!Web-Only+Source\/continent:North+America!North+America\/city:Chicago+%28IL%29!Chicago+%28IL%29\/language:English!English",
+        "sort": "YMD_date:D",
+        "hide_duplicates": "2",
+        "maxresults": "60",
+        "f": "advanced",
+        "offset": "62",
+        "val-base-0": "immigration",
+        "fld-base-0": "alltext",
+        "bln-base-1": "or",
+        "val-base-1": "migrant",
+        "fld-base-1": "alltext",
+        "bln-base-2": "or",
+        "val-base-2": "migration",
+        "fld-base-2": "alltext",
+        "bln-base-3": "or",
+        "val-base-3": "border",
+        "fld-base-3": "Title",
+        "fld-nav-0": "YMD_date",
+        "val-nav-0": "2016 - 2025"
+      },
+      "multi": {
+        "enable": 1,
+        "show": 0,
+        "selectedRows": [],
+        "applyPosition": "above",
+        "strings": {
+          "toggle_list_label": "__SELECTTOGGLE__ __SELECTCOUNT__ Selected",
+          "clear_all_label": "Clear All",
+          "clear_all_confirm": "Are you sure you want to clear all of your selections?",
+          "apply_label": "Apply",
+          "haystack_label": "Multiple Sources (__SELECTCOUNT__)"
+        },
+        "labelIndex": 0,
+        "uniqueIndex": 7
+      },
+      "sort": {
+        "order": "desc",
+        "index": 1
+      },
+      "label": "Source Name",
+      "plural": "Source Names",
+      "meta": {
+        "acronymCount": "4",
+        "count": "9",
+        "family": "pubfam",
+        "format": "sorted",
+        "id": "pubname",
+        "pagedCount": "4",
+        "pagedStart": "1"
+      }
+    },
+    "cols": [
+      {
+        "id": "label",
+        "type": "string",
+        "title": "Source Name",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1,
+        "multiLabel": 1,
+        "classes": [
+          "react-browse-table__item--sourcename-label"
+        ]
+      },
+      {
+        "id": "count",
+        "type": "integer",
+        "title": "Articles",
+        "searchable": 0,
+        "sortable": 1,
+        "visible": 1,
+        "align": "right",
+        "thousandsSeparator": ","
+      },
+      {
+        "id": "meta\/Date Range",
+        "type": "string",
+        "title": "Dates",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1
+      },
+      {
+        "id": "meta\/Location",
+        "type": "string",
+        "title": "Location",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1
+      },
+      {
+        "id": "meta\/Source Type",
+        "type": "string",
+        "title": "Type",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1
+      },
+      {
+        "id": "meta\/Format",
+        "type": "string",
+        "title": "Format",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1
+      },
+      {
+        "id": "meta\/Language",
+        "type": "string",
+        "title": "Language",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1
+      },
+      {
+        "id": "step",
+        "type": "string",
+        "title": "Step",
+        "searchable": 0,
+        "sortable": 0,
+        "visible": 0,
+        "multiUnique": 1
+      }
+    ],
+    "rows": [
+      [
+        "Hyde Park Herald: Web Edition Articles (Chicago, IL)",
+        "303",
+        "2012  - Current",
+        "USA - IL - Chicago",
+        "Web-Only Source",
+        "Text",
+        "English",
+        "pubname:HPHWC!Hyde+Park+Herald%3A+Web+Edition+Articles+%28Chicago%2C+IL%29"
+      ],
+      [
+        "Chalkbeat Chicago (IL)",
+        "175",
+        "2018  - Current",
+        "USA - IL - Chicago",
+        "Web-Only Source",
+        "Text",
+        "English",
+        "pubname:CHACI!Chalkbeat+Chicago+%28IL%29"
+      ],
+      [
+        "Chicago Entertainment (IL)",
+        "164",
+        "2014 - 2022",
+        "USA - IL - Chicago",
+        "Web-Only Source",
+        "Text",
+        "English",
+        "pubname:CEC2C!Chicago+Entertainment+%28IL%29"
+      ],
+      [
+        "Pioneer Press Newspapers: Web Edition Articles (Chicago, IL)",
+        "158",
+        "2015  - Current",
+        "USA - IL - Chicago",
+        "Web-Only Source",
+        "Text",
+        "English",
+        "pubname:PPNWC!Pioneer+Press+Newspapers%3A+Web+Edition+Articles+%28Chicago%2C+IL%29"
+      ]
+    ]
+  },
+  "gnus_navigators": {
+    "context_navigators": {
+      "city": {
+        "count": "1",
+        "family": "geography",
+        "format": "sorted",
+        "id": "city",
+        "label": "City",
+        "pagedCount": "1",
+        "pagedStart": "1",
+        "plural": "Cities",
+        "sort": "desc",
+        "sortfield": "count",
+        "bin": {
+          "Chicago (IL)": {
+            "acronymCount": "4",
+            "count": "1022",
+            "label": "Chicago (IL)",
+            "field": "city",
+            "value": "Chicago (IL)",
+            "step": "city:Chicago+%28IL%29!Chicago+%28IL%29"
+          }
+        }
+      },
+      "continent": {
+        "count": "1",
+        "family": "geography",
+        "format": "summarized",
+        "parentType": "world",
+        "id": "continent",
+        "label": "World Region",
+        "plural": "World Regions",
+        "sort": "desc",
+        "sortfield": "count"
+      },
+      "country": {
+        "count": "1",
+        "family": "geography",
+        "format": "summarized",
+        "parentType": "continent",
+        "id": "country",
+        "label": "Country",
+        "plural": "Countries",
+        "sort": "desc",
+        "sortfield": "count"
+      },
+      "decade": {
+        "count": "2",
+        "family": "temporal",
+        "format": "sorted",
+        "id": "decade",
+        "label": "Decade",
+        "plural": "Decades",
+        "sort": "asc",
+        "sortfield": "label",
+        "bin": {
+          "2010": {
+            "count": "407",
+            "label": "2010 - 2019",
+            "field": "decade",
+            "value": "2010",
+            "step": "decade:2010!2010+-+2019"
+          },
+          "2020": {
+            "count": "615",
+            "label": "2020 - 2029",
+            "field": "decade",
+            "value": "2020",
+            "step": "decade:2020!2020+-+2029"
+          }
+        }
+      },
+      "era": {
+        "count": "1",
+        "family": "temporal",
+        "format": "sorted",
+        "id": "era",
+        "label": "Era",
+        "plural": "Eras",
+        "sort": "desc",
+        "sortfield": "count",
+        "bin": {
+          "260": {
+            "count": "407",
+            "label": "Dawn of the Millennium (2000 to 2019)",
+            "field": "era",
+            "value": "260",
+            "step": "era:260!Dawn+of+the+Millennium+%282000+to+2019%29"
+          }
+        }
+      },
+      "language": {
+        "count": "1",
+        "family": "pubinfofam",
+        "format": "sorted",
+        "id": "language",
+        "label": "Language",
+        "plural": "Languages",
+        "sort": "desc",
+        "sortfield": "count",
+        "bin": {
+          "English": {
+            "acronymCount": "4",
+            "count": "1022",
+            "label": "English",
+            "field": "language",
+            "value": "English",
+            "step": "language:English!English"
+          }
+        }
+      },
+      "mody": {
+        "count": "338",
+        "family": "temporal",
+        "format": "sorted",
+        "id": "mody",
+        "label": "Day",
+        "plural": "Days",
+        "sort": "asc",
+        "sortfield": "value",
+        "bin": {
+          "0101": {
+            "count": "2",
+            "label": "January 01",
+            "field": "mody",
+            "value": "0101",
+            "step": "mody:0101!January+01"
+          },
+          "0102": {
+            "count": "4",
+            "label": "January 02",
+            "field": "mody",
+            "value": "0102",
+            "step": "mody:0102!January+02"
+          },
+          "0103": {
+            "count": "5",
+            "label": "January 03",
+            "field": "mody",
+            "value": "0103",
+            "step": "mody:0103!January+03"
+          },
+          "0104": {
+            "count": "3",
+            "label": "January 04",
+            "field": "mody",
+            "value": "0104",
+            "step": "mody:0104!January+04"
+          },
+          "0105": {
+            "count": "2",
+            "label": "January 05",
+            "field": "mody",
+            "value": "0105",
+            "step": "mody:0105!January+05"
+          },
+          "0106": {
+            "count": "1",
+            "label": "January 06",
+            "field": "mody",
+            "value": "0106",
+            "step": "mody:0106!January+06"
+          },
+          "0107": {
+            "count": "2",
+            "label": "January 07",
+            "field": "mody",
+            "value": "0107",
+            "step": "mody:0107!January+07"
+          },
+          "0108": {
+            "count": "4",
+            "label": "January 08",
+            "field": "mody",
+            "value": "0108",
+            "step": "mody:0108!January+08"
+          },
+          "0109": {
+            "count": "3",
+            "label": "January 09",
+            "field": "mody",
+            "value": "0109",
+            "step": "mody:0109!January+09"
+          },
+          "0110": {
+            "count": "4",
+            "label": "January 10",
+            "field": "mody",
+            "value": "0110",
+            "step": "mody:0110!January+10"
+          },
+          "0111": {
+            "count": "3",
+            "label": "January 11",
+            "field": "mody",
+            "value": "0111",
+            "step": "mody:0111!January+11"
+          },
+          "0112": {
+            "count": "3",
+            "label": "January 12",
+            "field": "mody",
+            "value": "0112",
+            "step": "mody:0112!January+12"
+          },
+          "0113": {
+            "count": "7",
+            "label": "January 13",
+            "field": "mody",
+            "value": "0113",
+            "step": "mody:0113!January+13"
+          },
+          "0114": {
+            "count": "4",
+            "label": "January 14",
+            "field": "mody",
+            "value": "0114",
+            "step": "mody:0114!January+14"
+          },
+          "0115": {
+            "count": "5",
+            "label": "January 15",
+            "field": "mody",
+            "value": "0115",
+            "step": "mody:0115!January+15"
+          },
+          "0116": {
+            "count": "7",
+            "label": "January 16",
+            "field": "mody",
+            "value": "0116",
+            "step": "mody:0116!January+16"
+          },
+          "0117": {
+            "count": "6",
+            "label": "January 17",
+            "field": "mody",
+            "value": "0117",
+            "step": "mody:0117!January+17"
+          },
+          "0118": {
+            "count": "3",
+            "label": "January 18",
+            "field": "mody",
+            "value": "0118",
+            "step": "mody:0118!January+18"
+          },
+          "0119": {
+            "count": "4",
+            "label": "January 19",
+            "field": "mody",
+            "value": "0119",
+            "step": "mody:0119!January+19"
+          },
+          "0120": {
+            "count": "2",
+            "label": "January 20",
+            "field": "mody",
+            "value": "0120",
+            "step": "mody:0120!January+20"
+          },
+          "0121": {
+            "count": "6",
+            "label": "January 21",
+            "field": "mody",
+            "value": "0121",
+            "step": "mody:0121!January+21"
+          },
+          "0122": {
+            "count": "4",
+            "label": "January 22",
+            "field": "mody",
+            "value": "0122",
+            "step": "mody:0122!January+22"
+          },
+          "0123": {
+            "count": "4",
+            "label": "January 23",
+            "field": "mody",
+            "value": "0123",
+            "step": "mody:0123!January+23"
+          },
+          "0124": {
+            "count": "2",
+            "label": "January 24",
+            "field": "mody",
+            "value": "0124",
+            "step": "mody:0124!January+24"
+          },
+          "0125": {
+            "count": "4",
+            "label": "January 25",
+            "field": "mody",
+            "value": "0125",
+            "step": "mody:0125!January+25"
+          },
+          "0126": {
+            "count": "1",
+            "label": "January 26",
+            "field": "mody",
+            "value": "0126",
+            "step": "mody:0126!January+26"
+          },
+          "0127": {
+            "count": "2",
+            "label": "January 27",
+            "field": "mody",
+            "value": "0127",
+            "step": "mody:0127!January+27"
+          },
+          "0128": {
+            "count": "6",
+            "label": "January 28",
+            "field": "mody",
+            "value": "0128",
+            "step": "mody:0128!January+28"
+          },
+          "0129": {
+            "count": "4",
+            "label": "January 29",
+            "field": "mody",
+            "value": "0129",
+            "step": "mody:0129!January+29"
+          },
+          "0130": {
+            "count": "5",
+            "label": "January 30",
+            "field": "mody",
+            "value": "0130",
+            "step": "mody:0130!January+30"
+          },
+          "0131": {
+            "count": "5",
+            "label": "January 31",
+            "field": "mody",
+            "value": "0131",
+            "step": "mody:0131!January+31"
+          },
+          "0201": {
+            "count": "7",
+            "label": "February 01",
+            "field": "mody",
+            "value": "0201",
+            "step": "mody:0201!February+01"
+          },
+          "0202": {
+            "count": "4",
+            "label": "February 02",
+            "field": "mody",
+            "value": "0202",
+            "step": "mody:0202!February+02"
+          },
+          "0203": {
+            "count": "4",
+            "label": "February 03",
+            "field": "mody",
+            "value": "0203",
+            "step": "mody:0203!February+03"
+          },
+          "0204": {
+            "count": "4",
+            "label": "February 04",
+            "field": "mody",
+            "value": "0204",
+            "step": "mody:0204!February+04"
+          },
+          "0205": {
+            "count": "5",
+            "label": "February 05",
+            "field": "mody",
+            "value": "0205",
+            "step": "mody:0205!February+05"
+          },
+          "0206": {
+            "count": "7",
+            "label": "February 06",
+            "field": "mody",
+            "value": "0206",
+            "step": "mody:0206!February+06"
+          },
+          "0207": {
+            "count": "7",
+            "label": "February 07",
+            "field": "mody",
+            "value": "0207",
+            "step": "mody:0207!February+07"
+          },
+          "0208": {
+            "count": "5",
+            "label": "February 08",
+            "field": "mody",
+            "value": "0208",
+            "step": "mody:0208!February+08"
+          },
+          "0209": {
+            "count": "5",
+            "label": "February 09",
+            "field": "mody",
+            "value": "0209",
+            "step": "mody:0209!February+09"
+          },
+          "0210": {
+            "count": "6",
+            "label": "February 10",
+            "field": "mody",
+            "value": "0210",
+            "step": "mody:0210!February+10"
+          },
+          "0211": {
+            "count": "4",
+            "label": "February 11",
+            "field": "mody",
+            "value": "0211",
+            "step": "mody:0211!February+11"
+          },
+          "0212": {
+            "count": "1",
+            "label": "February 12",
+            "field": "mody",
+            "value": "0212",
+            "step": "mody:0212!February+12"
+          },
+          "0213": {
+            "count": "5",
+            "label": "February 13",
+            "field": "mody",
+            "value": "0213",
+            "step": "mody:0213!February+13"
+          },
+          "0214": {
+            "count": "5",
+            "label": "February 14",
+            "field": "mody",
+            "value": "0214",
+            "step": "mody:0214!February+14"
+          },
+          "0215": {
+            "count": "7",
+            "label": "February 15",
+            "field": "mody",
+            "value": "0215",
+            "step": "mody:0215!February+15"
+          },
+          "0216": {
+            "count": "3",
+            "label": "February 16",
+            "field": "mody",
+            "value": "0216",
+            "step": "mody:0216!February+16"
+          },
+          "0217": {
+            "count": "4",
+            "label": "February 17",
+            "field": "mody",
+            "value": "0217",
+            "step": "mody:0217!February+17"
+          },
+          "0218": {
+            "count": "4",
+            "label": "February 18",
+            "field": "mody",
+            "value": "0218",
+            "step": "mody:0218!February+18"
+          },
+          "0219": {
+            "count": "4",
+            "label": "February 19",
+            "field": "mody",
+            "value": "0219",
+            "step": "mody:0219!February+19"
+          },
+          "0220": {
+            "count": "6",
+            "label": "February 20",
+            "field": "mody",
+            "value": "0220",
+            "step": "mody:0220!February+20"
+          },
+          "0221": {
+            "count": "7",
+            "label": "February 21",
+            "field": "mody",
+            "value": "0221",
+            "step": "mody:0221!February+21"
+          },
+          "0222": {
+            "count": "7",
+            "label": "February 22",
+            "field": "mody",
+            "value": "0222",
+            "step": "mody:0222!February+22"
+          },
+          "0223": {
+            "count": "4",
+            "label": "February 23",
+            "field": "mody",
+            "value": "0223",
+            "step": "mody:0223!February+23"
+          },
+          "0224": {
+            "count": "4",
+            "label": "February 24",
+            "field": "mody",
+            "value": "0224",
+            "step": "mody:0224!February+24"
+          },
+          "0225": {
+            "count": "4",
+            "label": "February 25",
+            "field": "mody",
+            "value": "0225",
+            "step": "mody:0225!February+25"
+          },
+          "0226": {
+            "count": "1",
+            "label": "February 26",
+            "field": "mody",
+            "value": "0226",
+            "step": "mody:0226!February+26"
+          },
+          "0227": {
+            "count": "4",
+            "label": "February 27",
+            "field": "mody",
+            "value": "0227",
+            "step": "mody:0227!February+27"
+          },
+          "0228": {
+            "count": "4",
+            "label": "February 28",
+            "field": "mody",
+            "value": "0228",
+            "step": "mody:0228!February+28"
+          },
+          "0229": {
+            "count": "1",
+            "label": "February 29",
+            "field": "mody",
+            "value": "0229",
+            "step": "mody:0229!February+29"
+          },
+          "0301": {
+            "count": "2",
+            "label": "March 01",
+            "field": "mody",
+            "value": "0301",
+            "step": "mody:0301!March+01"
+          },
+          "0302": {
+            "count": "2",
+            "label": "March 02",
+            "field": "mody",
+            "value": "0302",
+            "step": "mody:0302!March+02"
+          },
+          "0303": {
+            "count": "5",
+            "label": "March 03",
+            "field": "mody",
+            "value": "0303",
+            "step": "mody:0303!March+03"
+          },
+          "0304": {
+            "count": "3",
+            "label": "March 04",
+            "field": "mody",
+            "value": "0304",
+            "step": "mody:0304!March+04"
+          },
+          "0305": {
+            "count": "3",
+            "label": "March 05",
+            "field": "mody",
+            "value": "0305",
+            "step": "mody:0305!March+05"
+          },
+          "0306": {
+            "count": "2",
+            "label": "March 06",
+            "field": "mody",
+            "value": "0306",
+            "step": "mody:0306!March+06"
+          },
+          "0307": {
+            "count": "3",
+            "label": "March 07",
+            "field": "mody",
+            "value": "0307",
+            "step": "mody:0307!March+07"
+          },
+          "0308": {
+            "count": "1",
+            "label": "March 08",
+            "field": "mody",
+            "value": "0308",
+            "step": "mody:0308!March+08"
+          },
+          "0309": {
+            "count": "3",
+            "label": "March 09",
+            "field": "mody",
+            "value": "0309",
+            "step": "mody:0309!March+09"
+          },
+          "0311": {
+            "count": "1",
+            "label": "March 11",
+            "field": "mody",
+            "value": "0311",
+            "step": "mody:0311!March+11"
+          },
+          "0312": {
+            "count": "7",
+            "label": "March 12",
+            "field": "mody",
+            "value": "0312",
+            "step": "mody:0312!March+12"
+          },
+          "0313": {
+            "count": "3",
+            "label": "March 13",
+            "field": "mody",
+            "value": "0313",
+            "step": "mody:0313!March+13"
+          },
+          "0314": {
+            "count": "4",
+            "label": "March 14",
+            "field": "mody",
+            "value": "0314",
+            "step": "mody:0314!March+14"
+          },
+          "0315": {
+            "count": "5",
+            "label": "March 15",
+            "field": "mody",
+            "value": "0315",
+            "step": "mody:0315!March+15"
+          },
+          "0316": {
+            "count": "5",
+            "label": "March 16",
+            "field": "mody",
+            "value": "0316",
+            "step": "mody:0316!March+16"
+          },
+          "0317": {
+            "count": "3",
+            "label": "March 17",
+            "field": "mody",
+            "value": "0317",
+            "step": "mody:0317!March+17"
+          },
+          "0318": {
+            "count": "3",
+            "label": "March 18",
+            "field": "mody",
+            "value": "0318",
+            "step": "mody:0318!March+18"
+          },
+          "0319": {
+            "count": "5",
+            "label": "March 19",
+            "field": "mody",
+            "value": "0319",
+            "step": "mody:0319!March+19"
+          },
+          "0320": {
+            "count": "1",
+            "label": "March 20",
+            "field": "mody",
+            "value": "0320",
+            "step": "mody:0320!March+20"
+          },
+          "0321": {
+            "count": "9",
+            "label": "March 21",
+            "field": "mody",
+            "value": "0321",
+            "step": "mody:0321!March+21"
+          },
+          "0322": {
+            "count": "4",
+            "label": "March 22",
+            "field": "mody",
+            "value": "0322",
+            "step": "mody:0322!March+22"
+          },
+          "0323": {
+            "count": "3",
+            "label": "March 23",
+            "field": "mody",
+            "value": "0323",
+            "step": "mody:0323!March+23"
+          },
+          "0324": {
+            "count": "4",
+            "label": "March 24",
+            "field": "mody",
+            "value": "0324",
+            "step": "mody:0324!March+24"
+          },
+          "0325": {
+            "count": "2",
+            "label": "March 25",
+            "field": "mody",
+            "value": "0325",
+            "step": "mody:0325!March+25"
+          },
+          "0327": {
+            "count": "6",
+            "label": "March 27",
+            "field": "mody",
+            "value": "0327",
+            "step": "mody:0327!March+27"
+          },
+          "0328": {
+            "count": "3",
+            "label": "March 28",
+            "field": "mody",
+            "value": "0328",
+            "step": "mody:0328!March+28"
+          },
+          "0329": {
+            "count": "1",
+            "label": "March 29",
+            "field": "mody",
+            "value": "0329",
+            "step": "mody:0329!March+29"
+          },
+          "0330": {
+            "count": "2",
+            "label": "March 30",
+            "field": "mody",
+            "value": "0330",
+            "step": "mody:0330!March+30"
+          },
+          "0331": {
+            "count": "3",
+            "label": "March 31",
+            "field": "mody",
+            "value": "0331",
+            "step": "mody:0331!March+31"
+          },
+          "0401": {
+            "count": "3",
+            "label": "April 01",
+            "field": "mody",
+            "value": "0401",
+            "step": "mody:0401!April+01"
+          },
+          "0402": {
+            "count": "1",
+            "label": "April 02",
+            "field": "mody",
+            "value": "0402",
+            "step": "mody:0402!April+02"
+          },
+          "0403": {
+            "count": "4",
+            "label": "April 03",
+            "field": "mody",
+            "value": "0403",
+            "step": "mody:0403!April+03"
+          },
+          "0404": {
+            "count": "3",
+            "label": "April 04",
+            "field": "mody",
+            "value": "0404",
+            "step": "mody:0404!April+04"
+          },
+          "0406": {
+            "count": "1",
+            "label": "April 06",
+            "field": "mody",
+            "value": "0406",
+            "step": "mody:0406!April+06"
+          },
+          "0407": {
+            "count": "2",
+            "label": "April 07",
+            "field": "mody",
+            "value": "0407",
+            "step": "mody:0407!April+07"
+          },
+          "0408": {
+            "count": "3",
+            "label": "April 08",
+            "field": "mody",
+            "value": "0408",
+            "step": "mody:0408!April+08"
+          },
+          "0409": {
+            "count": "2",
+            "label": "April 09",
+            "field": "mody",
+            "value": "0409",
+            "step": "mody:0409!April+09"
+          },
+          "0410": {
+            "count": "2",
+            "label": "April 10",
+            "field": "mody",
+            "value": "0410",
+            "step": "mody:0410!April+10"
+          },
+          "0411": {
+            "count": "4",
+            "label": "April 11",
+            "field": "mody",
+            "value": "0411",
+            "step": "mody:0411!April+11"
+          },
+          "0412": {
+            "count": "4",
+            "label": "April 12",
+            "field": "mody",
+            "value": "0412",
+            "step": "mody:0412!April+12"
+          },
+          "0413": {
+            "count": "2",
+            "label": "April 13",
+            "field": "mody",
+            "value": "0413",
+            "step": "mody:0413!April+13"
+          },
+          "0414": {
+            "count": "2",
+            "label": "April 14",
+            "field": "mody",
+            "value": "0414",
+            "step": "mody:0414!April+14"
+          },
+          "0415": {
+            "count": "2",
+            "label": "April 15",
+            "field": "mody",
+            "value": "0415",
+            "step": "mody:0415!April+15"
+          },
+          "0417": {
+            "count": "1",
+            "label": "April 17",
+            "field": "mody",
+            "value": "0417",
+            "step": "mody:0417!April+17"
+          },
+          "0418": {
+            "count": "3",
+            "label": "April 18",
+            "field": "mody",
+            "value": "0418",
+            "step": "mody:0418!April+18"
+          },
+          "0419": {
+            "count": "4",
+            "label": "April 19",
+            "field": "mody",
+            "value": "0419",
+            "step": "mody:0419!April+19"
+          },
+          "0420": {
+            "count": "3",
+            "label": "April 20",
+            "field": "mody",
+            "value": "0420",
+            "step": "mody:0420!April+20"
+          },
+          "0421": {
+            "count": "1",
+            "label": "April 21",
+            "field": "mody",
+            "value": "0421",
+            "step": "mody:0421!April+21"
+          },
+          "0422": {
+            "count": "3",
+            "label": "April 22",
+            "field": "mody",
+            "value": "0422",
+            "step": "mody:0422!April+22"
+          },
+          "0423": {
+            "count": "4",
+            "label": "April 23",
+            "field": "mody",
+            "value": "0423",
+            "step": "mody:0423!April+23"
+          },
+          "0424": {
+            "count": "2",
+            "label": "April 24",
+            "field": "mody",
+            "value": "0424",
+            "step": "mody:0424!April+24"
+          },
+          "0425": {
+            "count": "2",
+            "label": "April 25",
+            "field": "mody",
+            "value": "0425",
+            "step": "mody:0425!April+25"
+          },
+          "0426": {
+            "count": "4",
+            "label": "April 26",
+            "field": "mody",
+            "value": "0426",
+            "step": "mody:0426!April+26"
+          },
+          "0427": {
+            "count": "1",
+            "label": "April 27",
+            "field": "mody",
+            "value": "0427",
+            "step": "mody:0427!April+27"
+          },
+          "0428": {
+            "count": "1",
+            "label": "April 28",
+            "field": "mody",
+            "value": "0428",
+            "step": "mody:0428!April+28"
+          },
+          "0429": {
+            "count": "2",
+            "label": "April 29",
+            "field": "mody",
+            "value": "0429",
+            "step": "mody:0429!April+29"
+          },
+          "0501": {
+            "count": "6",
+            "label": "May 01",
+            "field": "mody",
+            "value": "0501",
+            "step": "mody:0501!May+01"
+          },
+          "0502": {
+            "count": "5",
+            "label": "May 02",
+            "field": "mody",
+            "value": "0502",
+            "step": "mody:0502!May+02"
+          },
+          "0503": {
+            "count": "3",
+            "label": "May 03",
+            "field": "mody",
+            "value": "0503",
+            "step": "mody:0503!May+03"
+          },
+          "0504": {
+            "count": "2",
+            "label": "May 04",
+            "field": "mody",
+            "value": "0504",
+            "step": "mody:0504!May+04"
+          },
+          "0505": {
+            "count": "3",
+            "label": "May 05",
+            "field": "mody",
+            "value": "0505",
+            "step": "mody:0505!May+05"
+          },
+          "0506": {
+            "count": "1",
+            "label": "May 06",
+            "field": "mody",
+            "value": "0506",
+            "step": "mody:0506!May+06"
+          },
+          "0507": {
+            "count": "1",
+            "label": "May 07",
+            "field": "mody",
+            "value": "0507",
+            "step": "mody:0507!May+07"
+          },
+          "0508": {
+            "count": "2",
+            "label": "May 08",
+            "field": "mody",
+            "value": "0508",
+            "step": "mody:0508!May+08"
+          },
+          "0509": {
+            "count": "3",
+            "label": "May 09",
+            "field": "mody",
+            "value": "0509",
+            "step": "mody:0509!May+09"
+          },
+          "0510": {
+            "count": "5",
+            "label": "May 10",
+            "field": "mody",
+            "value": "0510",
+            "step": "mody:0510!May+10"
+          },
+          "0511": {
+            "count": "3",
+            "label": "May 11",
+            "field": "mody",
+            "value": "0511",
+            "step": "mody:0511!May+11"
+          },
+          "0512": {
+            "count": "2",
+            "label": "May 12",
+            "field": "mody",
+            "value": "0512",
+            "step": "mody:0512!May+12"
+          },
+          "0513": {
+            "count": "1",
+            "label": "May 13",
+            "field": "mody",
+            "value": "0513",
+            "step": "mody:0513!May+13"
+          },
+          "0514": {
+            "count": "2",
+            "label": "May 14",
+            "field": "mody",
+            "value": "0514",
+            "step": "mody:0514!May+14"
+          },
+          "0515": {
+            "count": "3",
+            "label": "May 15",
+            "field": "mody",
+            "value": "0515",
+            "step": "mody:0515!May+15"
+          },
+          "0516": {
+            "count": "1",
+            "label": "May 16",
+            "field": "mody",
+            "value": "0516",
+            "step": "mody:0516!May+16"
+          },
+          "0517": {
+            "count": "3",
+            "label": "May 17",
+            "field": "mody",
+            "value": "0517",
+            "step": "mody:0517!May+17"
+          },
+          "0518": {
+            "count": "5",
+            "label": "May 18",
+            "field": "mody",
+            "value": "0518",
+            "step": "mody:0518!May+18"
+          },
+          "0519": {
+            "count": "3",
+            "label": "May 19",
+            "field": "mody",
+            "value": "0519",
+            "step": "mody:0519!May+19"
+          },
+          "0520": {
+            "count": "3",
+            "label": "May 20",
+            "field": "mody",
+            "value": "0520",
+            "step": "mody:0520!May+20"
+          },
+          "0521": {
+            "count": "2",
+            "label": "May 21",
+            "field": "mody",
+            "value": "0521",
+            "step": "mody:0521!May+21"
+          },
+          "0523": {
+            "count": "4",
+            "label": "May 23",
+            "field": "mody",
+            "value": "0523",
+            "step": "mody:0523!May+23"
+          },
+          "0524": {
+            "count": "3",
+            "label": "May 24",
+            "field": "mody",
+            "value": "0524",
+            "step": "mody:0524!May+24"
+          },
+          "0525": {
+            "count": "4",
+            "label": "May 25",
+            "field": "mody",
+            "value": "0525",
+            "step": "mody:0525!May+25"
+          },
+          "0526": {
+            "count": "1",
+            "label": "May 26",
+            "field": "mody",
+            "value": "0526",
+            "step": "mody:0526!May+26"
+          },
+          "0529": {
+            "count": "1",
+            "label": "May 29",
+            "field": "mody",
+            "value": "0529",
+            "step": "mody:0529!May+29"
+          },
+          "0531": {
+            "count": "1",
+            "label": "May 31",
+            "field": "mody",
+            "value": "0531",
+            "step": "mody:0531!May+31"
+          },
+          "0601": {
+            "count": "4",
+            "label": "June 01",
+            "field": "mody",
+            "value": "0601",
+            "step": "mody:0601!June+01"
+          },
+          "0602": {
+            "count": "2",
+            "label": "June 02",
+            "field": "mody",
+            "value": "0602",
+            "step": "mody:0602!June+02"
+          },
+          "0603": {
+            "count": "3",
+            "label": "June 03",
+            "field": "mody",
+            "value": "0603",
+            "step": "mody:0603!June+03"
+          },
+          "0604": {
+            "count": "1",
+            "label": "June 04",
+            "field": "mody",
+            "value": "0604",
+            "step": "mody:0604!June+04"
+          },
+          "0605": {
+            "count": "2",
+            "label": "June 05",
+            "field": "mody",
+            "value": "0605",
+            "step": "mody:0605!June+05"
+          },
+          "0606": {
+            "count": "3",
+            "label": "June 06",
+            "field": "mody",
+            "value": "0606",
+            "step": "mody:0606!June+06"
+          },
+          "0608": {
+            "count": "1",
+            "label": "June 08",
+            "field": "mody",
+            "value": "0608",
+            "step": "mody:0608!June+08"
+          },
+          "0609": {
+            "count": "2",
+            "label": "June 09",
+            "field": "mody",
+            "value": "0609",
+            "step": "mody:0609!June+09"
+          },
+          "0610": {
+            "count": "3",
+            "label": "June 10",
+            "field": "mody",
+            "value": "0610",
+            "step": "mody:0610!June+10"
+          },
+          "0611": {
+            "count": "4",
+            "label": "June 11",
+            "field": "mody",
+            "value": "0611",
+            "step": "mody:0611!June+11"
+          },
+          "0612": {
+            "count": "3",
+            "label": "June 12",
+            "field": "mody",
+            "value": "0612",
+            "step": "mody:0612!June+12"
+          },
+          "0613": {
+            "count": "8",
+            "label": "June 13",
+            "field": "mody",
+            "value": "0613",
+            "step": "mody:0613!June+13"
+          },
+          "0614": {
+            "count": "3",
+            "label": "June 14",
+            "field": "mody",
+            "value": "0614",
+            "step": "mody:0614!June+14"
+          },
+          "0615": {
+            "count": "4",
+            "label": "June 15",
+            "field": "mody",
+            "value": "0615",
+            "step": "mody:0615!June+15"
+          },
+          "0616": {
+            "count": "2",
+            "label": "June 16",
+            "field": "mody",
+            "value": "0616",
+            "step": "mody:0616!June+16"
+          },
+          "0617": {
+            "count": "2",
+            "label": "June 17",
+            "field": "mody",
+            "value": "0617",
+            "step": "mody:0617!June+17"
+          },
+          "0618": {
+            "count": "1",
+            "label": "June 18",
+            "field": "mody",
+            "value": "0618",
+            "step": "mody:0618!June+18"
+          },
+          "0619": {
+            "count": "1",
+            "label": "June 19",
+            "field": "mody",
+            "value": "0619",
+            "step": "mody:0619!June+19"
+          },
+          "0621": {
+            "count": "4",
+            "label": "June 21",
+            "field": "mody",
+            "value": "0621",
+            "step": "mody:0621!June+21"
+          },
+          "0622": {
+            "count": "3",
+            "label": "June 22",
+            "field": "mody",
+            "value": "0622",
+            "step": "mody:0622!June+22"
+          },
+          "0623": {
+            "count": "4",
+            "label": "June 23",
+            "field": "mody",
+            "value": "0623",
+            "step": "mody:0623!June+23"
+          },
+          "0624": {
+            "count": "1",
+            "label": "June 24",
+            "field": "mody",
+            "value": "0624",
+            "step": "mody:0624!June+24"
+          },
+          "0625": {
+            "count": "2",
+            "label": "June 25",
+            "field": "mody",
+            "value": "0625",
+            "step": "mody:0625!June+25"
+          },
+          "0626": {
+            "count": "2",
+            "label": "June 26",
+            "field": "mody",
+            "value": "0626",
+            "step": "mody:0626!June+26"
+          },
+          "0627": {
+            "count": "2",
+            "label": "June 27",
+            "field": "mody",
+            "value": "0627",
+            "step": "mody:0627!June+27"
+          },
+          "0628": {
+            "count": "2",
+            "label": "June 28",
+            "field": "mody",
+            "value": "0628",
+            "step": "mody:0628!June+28"
+          },
+          "0629": {
+            "count": "2",
+            "label": "June 29",
+            "field": "mody",
+            "value": "0629",
+            "step": "mody:0629!June+29"
+          },
+          "0630": {
+            "count": "4",
+            "label": "June 30",
+            "field": "mody",
+            "value": "0630",
+            "step": "mody:0630!June+30"
+          },
+          "0701": {
+            "count": "1",
+            "label": "July 01",
+            "field": "mody",
+            "value": "0701",
+            "step": "mody:0701!July+01"
+          },
+          "0702": {
+            "count": "1",
+            "label": "July 02",
+            "field": "mody",
+            "value": "0702",
+            "step": "mody:0702!July+02"
+          },
+          "0703": {
+            "count": "1",
+            "label": "July 03",
+            "field": "mody",
+            "value": "0703",
+            "step": "mody:0703!July+03"
+          },
+          "0705": {
+            "count": "2",
+            "label": "July 05",
+            "field": "mody",
+            "value": "0705",
+            "step": "mody:0705!July+05"
+          },
+          "0707": {
+            "count": "3",
+            "label": "July 07",
+            "field": "mody",
+            "value": "0707",
+            "step": "mody:0707!July+07"
+          },
+          "0708": {
+            "count": "3",
+            "label": "July 08",
+            "field": "mody",
+            "value": "0708",
+            "step": "mody:0708!July+08"
+          },
+          "0709": {
+            "count": "1",
+            "label": "July 09",
+            "field": "mody",
+            "value": "0709",
+            "step": "mody:0709!July+09"
+          },
+          "0710": {
+            "count": "1",
+            "label": "July 10",
+            "field": "mody",
+            "value": "0710",
+            "step": "mody:0710!July+10"
+          },
+          "0711": {
+            "count": "4",
+            "label": "July 11",
+            "field": "mody",
+            "value": "0711",
+            "step": "mody:0711!July+11"
+          },
+          "0712": {
+            "count": "1",
+            "label": "July 12",
+            "field": "mody",
+            "value": "0712",
+            "step": "mody:0712!July+12"
+          },
+          "0713": {
+            "count": "2",
+            "label": "July 13",
+            "field": "mody",
+            "value": "0713",
+            "step": "mody:0713!July+13"
+          },
+          "0714": {
+            "count": "3",
+            "label": "July 14",
+            "field": "mody",
+            "value": "0714",
+            "step": "mody:0714!July+14"
+          },
+          "0715": {
+            "count": "2",
+            "label": "July 15",
+            "field": "mody",
+            "value": "0715",
+            "step": "mody:0715!July+15"
+          },
+          "0716": {
+            "count": "1",
+            "label": "July 16",
+            "field": "mody",
+            "value": "0716",
+            "step": "mody:0716!July+16"
+          },
+          "0717": {
+            "count": "1",
+            "label": "July 17",
+            "field": "mody",
+            "value": "0717",
+            "step": "mody:0717!July+17"
+          },
+          "0718": {
+            "count": "5",
+            "label": "July 18",
+            "field": "mody",
+            "value": "0718",
+            "step": "mody:0718!July+18"
+          },
+          "0719": {
+            "count": "4",
+            "label": "July 19",
+            "field": "mody",
+            "value": "0719",
+            "step": "mody:0719!July+19"
+          },
+          "0720": {
+            "count": "3",
+            "label": "July 20",
+            "field": "mody",
+            "value": "0720",
+            "step": "mody:0720!July+20"
+          },
+          "0721": {
+            "count": "3",
+            "label": "July 21",
+            "field": "mody",
+            "value": "0721",
+            "step": "mody:0721!July+21"
+          },
+          "0722": {
+            "count": "3",
+            "label": "July 22",
+            "field": "mody",
+            "value": "0722",
+            "step": "mody:0722!July+22"
+          },
+          "0724": {
+            "count": "2",
+            "label": "July 24",
+            "field": "mody",
+            "value": "0724",
+            "step": "mody:0724!July+24"
+          },
+          "0725": {
+            "count": "6",
+            "label": "July 25",
+            "field": "mody",
+            "value": "0725",
+            "step": "mody:0725!July+25"
+          },
+          "0726": {
+            "count": "3",
+            "label": "July 26",
+            "field": "mody",
+            "value": "0726",
+            "step": "mody:0726!July+26"
+          },
+          "0727": {
+            "count": "3",
+            "label": "July 27",
+            "field": "mody",
+            "value": "0727",
+            "step": "mody:0727!July+27"
+          },
+          "0728": {
+            "count": "1",
+            "label": "July 28",
+            "field": "mody",
+            "value": "0728",
+            "step": "mody:0728!July+28"
+          },
+          "0730": {
+            "count": "2",
+            "label": "July 30",
+            "field": "mody",
+            "value": "0730",
+            "step": "mody:0730!July+30"
+          },
+          "0731": {
+            "count": "2",
+            "label": "July 31",
+            "field": "mody",
+            "value": "0731",
+            "step": "mody:0731!July+31"
+          },
+          "0801": {
+            "count": "2",
+            "label": "August 01",
+            "field": "mody",
+            "value": "0801",
+            "step": "mody:0801!August+01"
+          },
+          "0802": {
+            "count": "1",
+            "label": "August 02",
+            "field": "mody",
+            "value": "0802",
+            "step": "mody:0802!August+02"
+          },
+          "0803": {
+            "count": "2",
+            "label": "August 03",
+            "field": "mody",
+            "value": "0803",
+            "step": "mody:0803!August+03"
+          },
+          "0804": {
+            "count": "3",
+            "label": "August 04",
+            "field": "mody",
+            "value": "0804",
+            "step": "mody:0804!August+04"
+          },
+          "0805": {
+            "count": "1",
+            "label": "August 05",
+            "field": "mody",
+            "value": "0805",
+            "step": "mody:0805!August+05"
+          },
+          "0806": {
+            "count": "1",
+            "label": "August 06",
+            "field": "mody",
+            "value": "0806",
+            "step": "mody:0806!August+06"
+          },
+          "0807": {
+            "count": "3",
+            "label": "August 07",
+            "field": "mody",
+            "value": "0807",
+            "step": "mody:0807!August+07"
+          },
+          "0808": {
+            "count": "1",
+            "label": "August 08",
+            "field": "mody",
+            "value": "0808",
+            "step": "mody:0808!August+08"
+          },
+          "0809": {
+            "count": "2",
+            "label": "August 09",
+            "field": "mody",
+            "value": "0809",
+            "step": "mody:0809!August+09"
+          },
+          "0810": {
+            "count": "1",
+            "label": "August 10",
+            "field": "mody",
+            "value": "0810",
+            "step": "mody:0810!August+10"
+          },
+          "0811": {
+            "count": "2",
+            "label": "August 11",
+            "field": "mody",
+            "value": "0811",
+            "step": "mody:0811!August+11"
+          },
+          "0812": {
+            "count": "2",
+            "label": "August 12",
+            "field": "mody",
+            "value": "0812",
+            "step": "mody:0812!August+12"
+          },
+          "0813": {
+            "count": "1",
+            "label": "August 13",
+            "field": "mody",
+            "value": "0813",
+            "step": "mody:0813!August+13"
+          },
+          "0814": {
+            "count": "3",
+            "label": "August 14",
+            "field": "mody",
+            "value": "0814",
+            "step": "mody:0814!August+14"
+          },
+          "0815": {
+            "count": "1",
+            "label": "August 15",
+            "field": "mody",
+            "value": "0815",
+            "step": "mody:0815!August+15"
+          },
+          "0816": {
+            "count": "2",
+            "label": "August 16",
+            "field": "mody",
+            "value": "0816",
+            "step": "mody:0816!August+16"
+          },
+          "0817": {
+            "count": "1",
+            "label": "August 17",
+            "field": "mody",
+            "value": "0817",
+            "step": "mody:0817!August+17"
+          },
+          "0818": {
+            "count": "1",
+            "label": "August 18",
+            "field": "mody",
+            "value": "0818",
+            "step": "mody:0818!August+18"
+          },
+          "0819": {
+            "count": "2",
+            "label": "August 19",
+            "field": "mody",
+            "value": "0819",
+            "step": "mody:0819!August+19"
+          },
+          "0820": {
+            "count": "2",
+            "label": "August 20",
+            "field": "mody",
+            "value": "0820",
+            "step": "mody:0820!August+20"
+          },
+          "0821": {
+            "count": "3",
+            "label": "August 21",
+            "field": "mody",
+            "value": "0821",
+            "step": "mody:0821!August+21"
+          },
+          "0823": {
+            "count": "3",
+            "label": "August 23",
+            "field": "mody",
+            "value": "0823",
+            "step": "mody:0823!August+23"
+          },
+          "0824": {
+            "count": "5",
+            "label": "August 24",
+            "field": "mody",
+            "value": "0824",
+            "step": "mody:0824!August+24"
+          },
+          "0825": {
+            "count": "2",
+            "label": "August 25",
+            "field": "mody",
+            "value": "0825",
+            "step": "mody:0825!August+25"
+          },
+          "0826": {
+            "count": "1",
+            "label": "August 26",
+            "field": "mody",
+            "value": "0826",
+            "step": "mody:0826!August+26"
+          },
+          "0827": {
+            "count": "1",
+            "label": "August 27",
+            "field": "mody",
+            "value": "0827",
+            "step": "mody:0827!August+27"
+          },
+          "0828": {
+            "count": "1",
+            "label": "August 28",
+            "field": "mody",
+            "value": "0828",
+            "step": "mody:0828!August+28"
+          },
+          "0829": {
+            "count": "1",
+            "label": "August 29",
+            "field": "mody",
+            "value": "0829",
+            "step": "mody:0829!August+29"
+          },
+          "0830": {
+            "count": "3",
+            "label": "August 30",
+            "field": "mody",
+            "value": "0830",
+            "step": "mody:0830!August+30"
+          },
+          "0831": {
+            "count": "4",
+            "label": "August 31",
+            "field": "mody",
+            "value": "0831",
+            "step": "mody:0831!August+31"
+          },
+          "0901": {
+            "count": "4",
+            "label": "September 01",
+            "field": "mody",
+            "value": "0901",
+            "step": "mody:0901!September+01"
+          },
+          "0902": {
+            "count": "3",
+            "label": "September 02",
+            "field": "mody",
+            "value": "0902",
+            "step": "mody:0902!September+02"
+          },
+          "0903": {
+            "count": "3",
+            "label": "September 03",
+            "field": "mody",
+            "value": "0903",
+            "step": "mody:0903!September+03"
+          },
+          "0904": {
+            "count": "7",
+            "label": "September 04",
+            "field": "mody",
+            "value": "0904",
+            "step": "mody:0904!September+04"
+          },
+          "0905": {
+            "count": "3",
+            "label": "September 05",
+            "field": "mody",
+            "value": "0905",
+            "step": "mody:0905!September+05"
+          },
+          "0906": {
+            "count": "2",
+            "label": "September 06",
+            "field": "mody",
+            "value": "0906",
+            "step": "mody:0906!September+06"
+          },
+          "0907": {
+            "count": "10",
+            "label": "September 07",
+            "field": "mody",
+            "value": "0907",
+            "step": "mody:0907!September+07"
+          },
+          "0908": {
+            "count": "2",
+            "label": "September 08",
+            "field": "mody",
+            "value": "0908",
+            "step": "mody:0908!September+08"
+          },
+          "0909": {
+            "count": "3",
+            "label": "September 09",
+            "field": "mody",
+            "value": "0909",
+            "step": "mody:0909!September+09"
+          },
+          "0910": {
+            "count": "3",
+            "label": "September 10",
+            "field": "mody",
+            "value": "0910",
+            "step": "mody:0910!September+10"
+          },
+          "0911": {
+            "count": "4",
+            "label": "September 11",
+            "field": "mody",
+            "value": "0911",
+            "step": "mody:0911!September+11"
+          },
+          "0912": {
+            "count": "3",
+            "label": "September 12",
+            "field": "mody",
+            "value": "0912",
+            "step": "mody:0912!September+12"
+          },
+          "0913": {
+            "count": "3",
+            "label": "September 13",
+            "field": "mody",
+            "value": "0913",
+            "step": "mody:0913!September+13"
+          },
+          "0914": {
+            "count": "1",
+            "label": "September 14",
+            "field": "mody",
+            "value": "0914",
+            "step": "mody:0914!September+14"
+          },
+          "0915": {
+            "count": "1",
+            "label": "September 15",
+            "field": "mody",
+            "value": "0915",
+            "step": "mody:0915!September+15"
+          },
+          "0916": {
+            "count": "3",
+            "label": "September 16",
+            "field": "mody",
+            "value": "0916",
+            "step": "mody:0916!September+16"
+          },
+          "0917": {
+            "count": "5",
+            "label": "September 17",
+            "field": "mody",
+            "value": "0917",
+            "step": "mody:0917!September+17"
+          },
+          "0918": {
+            "count": "4",
+            "label": "September 18",
+            "field": "mody",
+            "value": "0918",
+            "step": "mody:0918!September+18"
+          },
+          "0919": {
+            "count": "3",
+            "label": "September 19",
+            "field": "mody",
+            "value": "0919",
+            "step": "mody:0919!September+19"
+          },
+          "0920": {
+            "count": "4",
+            "label": "September 20",
+            "field": "mody",
+            "value": "0920",
+            "step": "mody:0920!September+20"
+          },
+          "0921": {
+            "count": "1",
+            "label": "September 21",
+            "field": "mody",
+            "value": "0921",
+            "step": "mody:0921!September+21"
+          },
+          "0922": {
+            "count": "3",
+            "label": "September 22",
+            "field": "mody",
+            "value": "0922",
+            "step": "mody:0922!September+22"
+          },
+          "0923": {
+            "count": "5",
+            "label": "September 23",
+            "field": "mody",
+            "value": "0923",
+            "step": "mody:0923!September+23"
+          },
+          "0924": {
+            "count": "4",
+            "label": "September 24",
+            "field": "mody",
+            "value": "0924",
+            "step": "mody:0924!September+24"
+          },
+          "0925": {
+            "count": "7",
+            "label": "September 25",
+            "field": "mody",
+            "value": "0925",
+            "step": "mody:0925!September+25"
+          },
+          "0926": {
+            "count": "2",
+            "label": "September 26",
+            "field": "mody",
+            "value": "0926",
+            "step": "mody:0926!September+26"
+          },
+          "0927": {
+            "count": "3",
+            "label": "September 27",
+            "field": "mody",
+            "value": "0927",
+            "step": "mody:0927!September+27"
+          },
+          "0928": {
+            "count": "1",
+            "label": "September 28",
+            "field": "mody",
+            "value": "0928",
+            "step": "mody:0928!September+28"
+          },
+          "0929": {
+            "count": "2",
+            "label": "September 29",
+            "field": "mody",
+            "value": "0929",
+            "step": "mody:0929!September+29"
+          },
+          "0930": {
+            "count": "5",
+            "label": "September 30",
+            "field": "mody",
+            "value": "0930",
+            "step": "mody:0930!September+30"
+          },
+          "1001": {
+            "count": "3",
+            "label": "October 01",
+            "field": "mody",
+            "value": "1001",
+            "step": "mody:1001!October+01"
+          },
+          "1002": {
+            "count": "4",
+            "label": "October 02",
+            "field": "mody",
+            "value": "1002",
+            "step": "mody:1002!October+02"
+          },
+          "1003": {
+            "count": "3",
+            "label": "October 03",
+            "field": "mody",
+            "value": "1003",
+            "step": "mody:1003!October+03"
+          },
+          "1004": {
+            "count": "2",
+            "label": "October 04",
+            "field": "mody",
+            "value": "1004",
+            "step": "mody:1004!October+04"
+          },
+          "1005": {
+            "count": "1",
+            "label": "October 05",
+            "field": "mody",
+            "value": "1005",
+            "step": "mody:1005!October+05"
+          },
+          "1006": {
+            "count": "6",
+            "label": "October 06",
+            "field": "mody",
+            "value": "1006",
+            "step": "mody:1006!October+06"
+          },
+          "1007": {
+            "count": "2",
+            "label": "October 07",
+            "field": "mody",
+            "value": "1007",
+            "step": "mody:1007!October+07"
+          },
+          "1008": {
+            "count": "1",
+            "label": "October 08",
+            "field": "mody",
+            "value": "1008",
+            "step": "mody:1008!October+08"
+          },
+          "1009": {
+            "count": "4",
+            "label": "October 09",
+            "field": "mody",
+            "value": "1009",
+            "step": "mody:1009!October+09"
+          },
+          "1010": {
+            "count": "4",
+            "label": "October 10",
+            "field": "mody",
+            "value": "1010",
+            "step": "mody:1010!October+10"
+          },
+          "1011": {
+            "count": "5",
+            "label": "October 11",
+            "field": "mody",
+            "value": "1011",
+            "step": "mody:1011!October+11"
+          },
+          "1013": {
+            "count": "5",
+            "label": "October 13",
+            "field": "mody",
+            "value": "1013",
+            "step": "mody:1013!October+13"
+          },
+          "1014": {
+            "count": "1",
+            "label": "October 14",
+            "field": "mody",
+            "value": "1014",
+            "step": "mody:1014!October+14"
+          },
+          "1015": {
+            "count": "2",
+            "label": "October 15",
+            "field": "mody",
+            "value": "1015",
+            "step": "mody:1015!October+15"
+          },
+          "1016": {
+            "count": "5",
+            "label": "October 16",
+            "field": "mody",
+            "value": "1016",
+            "step": "mody:1016!October+16"
+          },
+          "1017": {
+            "count": "2",
+            "label": "October 17",
+            "field": "mody",
+            "value": "1017",
+            "step": "mody:1017!October+17"
+          },
+          "1018": {
+            "count": "5",
+            "label": "October 18",
+            "field": "mody",
+            "value": "1018",
+            "step": "mody:1018!October+18"
+          },
+          "1019": {
+            "count": "5",
+            "label": "October 19",
+            "field": "mody",
+            "value": "1019",
+            "step": "mody:1019!October+19"
+          },
+          "1021": {
+            "count": "4",
+            "label": "October 21",
+            "field": "mody",
+            "value": "1021",
+            "step": "mody:1021!October+21"
+          },
+          "1022": {
+            "count": "2",
+            "label": "October 22",
+            "field": "mody",
+            "value": "1022",
+            "step": "mody:1022!October+22"
+          },
+          "1023": {
+            "count": "3",
+            "label": "October 23",
+            "field": "mody",
+            "value": "1023",
+            "step": "mody:1023!October+23"
+          },
+          "1024": {
+            "count": "2",
+            "label": "October 24",
+            "field": "mody",
+            "value": "1024",
+            "step": "mody:1024!October+24"
+          },
+          "1025": {
+            "count": "4",
+            "label": "October 25",
+            "field": "mody",
+            "value": "1025",
+            "step": "mody:1025!October+25"
+          },
+          "1026": {
+            "count": "2",
+            "label": "October 26",
+            "field": "mody",
+            "value": "1026",
+            "step": "mody:1026!October+26"
+          },
+          "1027": {
+            "count": "3",
+            "label": "October 27",
+            "field": "mody",
+            "value": "1027",
+            "step": "mody:1027!October+27"
+          },
+          "1028": {
+            "count": "7",
+            "label": "October 28",
+            "field": "mody",
+            "value": "1028",
+            "step": "mody:1028!October+28"
+          },
+          "1029": {
+            "count": "6",
+            "label": "October 29",
+            "field": "mody",
+            "value": "1029",
+            "step": "mody:1029!October+29"
+          },
+          "1030": {
+            "count": "4",
+            "label": "October 30",
+            "field": "mody",
+            "value": "1030",
+            "step": "mody:1030!October+30"
+          },
+          "1031": {
+            "count": "3",
+            "label": "October 31",
+            "field": "mody",
+            "value": "1031",
+            "step": "mody:1031!October+31"
+          },
+          "1101": {
+            "count": "4",
+            "label": "November 01",
+            "field": "mody",
+            "value": "1101",
+            "step": "mody:1101!November+01"
+          },
+          "1102": {
+            "count": "2",
+            "label": "November 02",
+            "field": "mody",
+            "value": "1102",
+            "step": "mody:1102!November+02"
+          },
+          "1103": {
+            "count": "3",
+            "label": "November 03",
+            "field": "mody",
+            "value": "1103",
+            "step": "mody:1103!November+03"
+          },
+          "1104": {
+            "count": "1",
+            "label": "November 04",
+            "field": "mody",
+            "value": "1104",
+            "step": "mody:1104!November+04"
+          },
+          "1106": {
+            "count": "4",
+            "label": "November 06",
+            "field": "mody",
+            "value": "1106",
+            "step": "mody:1106!November+06"
+          },
+          "1107": {
+            "count": "2",
+            "label": "November 07",
+            "field": "mody",
+            "value": "1107",
+            "step": "mody:1107!November+07"
+          },
+          "1108": {
+            "count": "4",
+            "label": "November 08",
+            "field": "mody",
+            "value": "1108",
+            "step": "mody:1108!November+08"
+          },
+          "1109": {
+            "count": "3",
+            "label": "November 09",
+            "field": "mody",
+            "value": "1109",
+            "step": "mody:1109!November+09"
+          },
+          "1110": {
+            "count": "3",
+            "label": "November 10",
+            "field": "mody",
+            "value": "1110",
+            "step": "mody:1110!November+10"
+          },
+          "1111": {
+            "count": "5",
+            "label": "November 11",
+            "field": "mody",
+            "value": "1111",
+            "step": "mody:1111!November+11"
+          },
+          "1112": {
+            "count": "1",
+            "label": "November 12",
+            "field": "mody",
+            "value": "1112",
+            "step": "mody:1112!November+12"
+          },
+          "1113": {
+            "count": "1",
+            "label": "November 13",
+            "field": "mody",
+            "value": "1113",
+            "step": "mody:1113!November+13"
+          },
+          "1115": {
+            "count": "5",
+            "label": "November 15",
+            "field": "mody",
+            "value": "1115",
+            "step": "mody:1115!November+15"
+          },
+          "1116": {
+            "count": "3",
+            "label": "November 16",
+            "field": "mody",
+            "value": "1116",
+            "step": "mody:1116!November+16"
+          },
+          "1117": {
+            "count": "1",
+            "label": "November 17",
+            "field": "mody",
+            "value": "1117",
+            "step": "mody:1117!November+17"
+          },
+          "1118": {
+            "count": "1",
+            "label": "November 18",
+            "field": "mody",
+            "value": "1118",
+            "step": "mody:1118!November+18"
+          },
+          "1119": {
+            "count": "3",
+            "label": "November 19",
+            "field": "mody",
+            "value": "1119",
+            "step": "mody:1119!November+19"
+          },
+          "1121": {
+            "count": "2",
+            "label": "November 21",
+            "field": "mody",
+            "value": "1121",
+            "step": "mody:1121!November+21"
+          },
+          "1122": {
+            "count": "3",
+            "label": "November 22",
+            "field": "mody",
+            "value": "1122",
+            "step": "mody:1122!November+22"
+          },
+          "1123": {
+            "count": "3",
+            "label": "November 23",
+            "field": "mody",
+            "value": "1123",
+            "step": "mody:1123!November+23"
+          },
+          "1125": {
+            "count": "4",
+            "label": "November 25",
+            "field": "mody",
+            "value": "1125",
+            "step": "mody:1125!November+25"
+          },
+          "1127": {
+            "count": "4",
+            "label": "November 27",
+            "field": "mody",
+            "value": "1127",
+            "step": "mody:1127!November+27"
+          },
+          "1129": {
+            "count": "6",
+            "label": "November 29",
+            "field": "mody",
+            "value": "1129",
+            "step": "mody:1129!November+29"
+          },
+          "1201": {
+            "count": "2",
+            "label": "December 01",
+            "field": "mody",
+            "value": "1201",
+            "step": "mody:1201!December+01"
+          },
+          "1203": {
+            "count": "1",
+            "label": "December 03",
+            "field": "mody",
+            "value": "1203",
+            "step": "mody:1203!December+03"
+          },
+          "1204": {
+            "count": "3",
+            "label": "December 04",
+            "field": "mody",
+            "value": "1204",
+            "step": "mody:1204!December+04"
+          },
+          "1205": {
+            "count": "4",
+            "label": "December 05",
+            "field": "mody",
+            "value": "1205",
+            "step": "mody:1205!December+05"
+          },
+          "1206": {
+            "count": "2",
+            "label": "December 06",
+            "field": "mody",
+            "value": "1206",
+            "step": "mody:1206!December+06"
+          },
+          "1207": {
+            "count": "1",
+            "label": "December 07",
+            "field": "mody",
+            "value": "1207",
+            "step": "mody:1207!December+07"
+          },
+          "1208": {
+            "count": "1",
+            "label": "December 08",
+            "field": "mody",
+            "value": "1208",
+            "step": "mody:1208!December+08"
+          },
+          "1209": {
+            "count": "2",
+            "label": "December 09",
+            "field": "mody",
+            "value": "1209",
+            "step": "mody:1209!December+09"
+          },
+          "1210": {
+            "count": "3",
+            "label": "December 10",
+            "field": "mody",
+            "value": "1210",
+            "step": "mody:1210!December+10"
+          },
+          "1211": {
+            "count": "3",
+            "label": "December 11",
+            "field": "mody",
+            "value": "1211",
+            "step": "mody:1211!December+11"
+          },
+          "1212": {
+            "count": "6",
+            "label": "December 12",
+            "field": "mody",
+            "value": "1212",
+            "step": "mody:1212!December+12"
+          },
+          "1213": {
+            "count": "1",
+            "label": "December 13",
+            "field": "mody",
+            "value": "1213",
+            "step": "mody:1213!December+13"
+          },
+          "1215": {
+            "count": "3",
+            "label": "December 15",
+            "field": "mody",
+            "value": "1215",
+            "step": "mody:1215!December+15"
+          },
+          "1216": {
+            "count": "3",
+            "label": "December 16",
+            "field": "mody",
+            "value": "1216",
+            "step": "mody:1216!December+16"
+          },
+          "1217": {
+            "count": "2",
+            "label": "December 17",
+            "field": "mody",
+            "value": "1217",
+            "step": "mody:1217!December+17"
+          },
+          "1218": {
+            "count": "3",
+            "label": "December 18",
+            "field": "mody",
+            "value": "1218",
+            "step": "mody:1218!December+18"
+          },
+          "1219": {
+            "count": "2",
+            "label": "December 19",
+            "field": "mody",
+            "value": "1219",
+            "step": "mody:1219!December+19"
+          },
+          "1220": {
+            "count": "6",
+            "label": "December 20",
+            "field": "mody",
+            "value": "1220",
+            "step": "mody:1220!December+20"
+          },
+          "1221": {
+            "count": "4",
+            "label": "December 21",
+            "field": "mody",
+            "value": "1221",
+            "step": "mody:1221!December+21"
+          },
+          "1222": {
+            "count": "2",
+            "label": "December 22",
+            "field": "mody",
+            "value": "1222",
+            "step": "mody:1222!December+22"
+          },
+          "1223": {
+            "count": "3",
+            "label": "December 23",
+            "field": "mody",
+            "value": "1223",
+            "step": "mody:1223!December+23"
+          },
+          "1224": {
+            "count": "1",
+            "label": "December 24",
+            "field": "mody",
+            "value": "1224",
+            "step": "mody:1224!December+24"
+          },
+          "1226": {
+            "count": "1",
+            "label": "December 26",
+            "field": "mody",
+            "value": "1226",
+            "step": "mody:1226!December+26"
+          },
+          "1227": {
+            "count": "2",
+            "label": "December 27",
+            "field": "mody",
+            "value": "1227",
+            "step": "mody:1227!December+27"
+          },
+          "1228": {
+            "count": "1",
+            "label": "December 28",
+            "field": "mody",
+            "value": "1228",
+            "step": "mody:1228!December+28"
+          },
+          "1229": {
+            "count": "1",
+            "label": "December 29",
+            "field": "mody",
+            "value": "1229",
+            "step": "mody:1229!December+29"
+          },
+          "1230": {
+            "count": "2",
+            "label": "December 30",
+            "field": "mody",
+            "value": "1230",
+            "step": "mody:1230!December+30"
+          },
+          "1231": {
+            "count": "1",
+            "label": "December 31",
+            "field": "mody",
+            "value": "1231",
+            "step": "mody:1231!December+31"
+          }
+        }
+      },
+      "presidentialera": {
+        "count": "3",
+        "family": "temporal",
+        "format": "sorted",
+        "id": "presidentialera",
+        "label": "Presidential Era",
+        "plural": "Presidential Eras",
+        "sort": "desc",
+        "sortfield": "count",
+        "bin": {
+          "450": {
+            "count": "445",
+            "label": "Joseph Biden (2021-present)",
+            "field": "presidentialera",
+            "value": "450",
+            "step": "presidentialera:450!Joseph+Biden+%282021-present%29"
+          },
+          "440": {
+            "count": "427",
+            "label": "Donald Trump (2017-2021)",
+            "field": "presidentialera",
+            "value": "440",
+            "step": "presidentialera:440!Donald+Trump+%282017-2021%29"
+          },
+          "430": {
+            "count": "96",
+            "label": "Barack Obama (2009-2017)",
+            "field": "presidentialera",
+            "value": "430",
+            "step": "presidentialera:430!Barack+Obama+%282009-2017%29"
+          }
+        }
+      },
+      "product": {
+        "count": "0",
+        "family": "pubinfofam",
+        "format": "summarized",
+        "id": "product",
+        "label": "Product",
+        "plural": "Products",
+        "sort": "desc",
+        "sortfield": "count"
+      },
+      "pubname": {
+        "acronymCount": "4",
+        "count": "9",
+        "family": "pubfam",
+        "format": "sorted",
+        "id": "pubname",
+        "label": "Source",
+        "pagedCount": "4",
+        "pagedStart": "1",
+        "plural": "Sources",
+        "sort": "desc",
+        "sortfield": "count",
+        "bin": {
+          "HPHWC": {
+            "count": "303",
+            "label": "Hyde Park Herald: Web Edition Articles (Chicago, IL)",
+            "field": "pubname",
+            "value": "HPHWC",
+            "step": "pubname:HPHWC!Hyde+Park+Herald%3A+Web+Edition+Articles+%28Chicago%2C+IL%29",
+            "meta": {
+              "Source Type": "Web-Only Source",
+              "Format": "Text",
+              "Language": "English",
+              "Family-step": "",
+              "Date Range": "2012  - Current",
+              "Location": "USA - IL - Chicago",
+              "Title Count": "1",
+              "Topic": ""
+            }
+          },
+          "CHACI": {
+            "count": "175",
+            "label": "Chalkbeat Chicago (IL)",
+            "field": "pubname",
+            "value": "CHACI",
+            "step": "pubname:CHACI!Chalkbeat+Chicago+%28IL%29",
+            "meta": {
+              "Source Type": "Web-Only Source",
+              "Format": "Text",
+              "Language": "English",
+              "Family-step": "",
+              "Date Range": "2018  - Current",
+              "Location": "USA - IL - Chicago",
+              "Title Count": "1",
+              "Topic": ""
+            }
+          },
+          "CEC2C": {
+            "count": "164",
+            "label": "Chicago Entertainment (IL)",
+            "field": "pubname",
+            "value": "CEC2C",
+            "step": "pubname:CEC2C!Chicago+Entertainment+%28IL%29",
+            "meta": {
+              "Source Type": "Web-Only Source",
+              "Format": "Text",
+              "Language": "English",
+              "Family-step": "",
+              "Date Range": "2014 - 2022",
+              "Location": "USA - IL - Chicago",
+              "Title Count": "1",
+              "Topic": ""
+            }
+          },
+          "PPNWC": {
+            "count": "158",
+            "label": "Pioneer Press Newspapers: Web Edition Articles (Chicago, IL)",
+            "field": "pubname",
+            "value": "PPNWC",
+            "step": "pubname:PPNWC!Pioneer+Press+Newspapers%3A+Web+Edition+Articles+%28Chicago%2C+IL%29",
+            "meta": {
+              "Source Type": "Web-Only Source",
+              "Format": "Text",
+              "Language": "English",
+              "Family-step": "",
+              "Date Range": "2015  - Current",
+              "Location": "USA - IL - Chicago",
+              "Title Count": "1",
+              "Topic": ""
+            }
+          }
+        }
+      },
+      "state": {
+        "count": "1",
+        "family": "geography",
+        "format": "summarized",
+        "parentType": "country",
+        "id": "state",
+        "label": "State and Territory",
+        "plural": "States and Territories",
+        "sort": "desc",
+        "sortfield": "count"
+      },
+      "stp": {
+        "count": "1",
+        "family": "pubinfofam",
+        "format": "sorted",
+        "id": "stp",
+        "label": "Source Type",
+        "plural": "Source Types",
+        "sort": "asc",
+        "sortfield": "label",
+        "bin": {
+          "Web-Only Source": {
+            "acronymCount": "4",
+            "count": "1022",
+            "label": "Web-Only Source",
+            "field": "stp",
+            "value": "Web-Only Source",
+            "step": "stp:Web-Only+Source!Web-Only+Source"
+          }
+        }
+      },
+      "year": {
+        "count": "10",
+        "family": "temporal",
+        "format": "sorted",
+        "id": "year",
+        "label": "Year",
+        "plural": "Years",
+        "sort": "asc",
+        "sortfield": "label",
+        "bin": {
+          "2016": {
+            "count": "90",
+            "label": "2016",
+            "field": "year",
+            "value": "2016",
+            "step": "year:2016!2016"
+          },
+          "2017": {
+            "count": "124",
+            "label": "2017",
+            "field": "year",
+            "value": "2017",
+            "step": "year:2017!2017"
+          },
+          "2018": {
+            "count": "87",
+            "label": "2018",
+            "field": "year",
+            "value": "2018",
+            "step": "year:2018!2018"
+          },
+          "2019": {
+            "count": "106",
+            "label": "2019",
+            "field": "year",
+            "value": "2019",
+            "step": "year:2019!2019"
+          },
+          "2020": {
+            "count": "113",
+            "label": "2020",
+            "field": "year",
+            "value": "2020",
+            "step": "year:2020!2020"
+          },
+          "2021": {
+            "count": "73",
+            "label": "2021",
+            "field": "year",
+            "value": "2021",
+            "step": "year:2021!2021"
+          },
+          "2022": {
+            "count": "53",
+            "label": "2022",
+            "field": "year",
+            "value": "2022",
+            "step": "year:2022!2022"
+          },
+          "2023": {
+            "count": "134",
+            "label": "2023",
+            "field": "year",
+            "value": "2023",
+            "step": "year:2023!2023"
+          },
+          "2024": {
+            "count": "178",
+            "label": "2024",
+            "field": "year",
+            "value": "2024",
+            "step": "year:2024!2024"
+          },
+          "2025": {
+            "count": "64",
+            "label": "2025",
+            "field": "year",
+            "value": "2025",
+            "step": "year:2025!2025"
+          }
+        }
+      },
+      "yrmo": {
+        "count": "110",
+        "family": "temporal",
+        "format": "sorted",
+        "id": "yrmo",
+        "label": "Month",
+        "plural": "Months",
+        "sort": "asc",
+        "sortfield": "value",
+        "bin": {
+          "201601": {
+            "count": "5",
+            "label": "January 2016",
+            "field": "yrmo",
+            "value": "201601",
+            "step": "yrmo:201601!January+2016"
+          },
+          "201602": {
+            "count": "8",
+            "label": "February 2016",
+            "field": "yrmo",
+            "value": "201602",
+            "step": "yrmo:201602!February+2016"
+          },
+          "201603": {
+            "count": "13",
+            "label": "March 2016",
+            "field": "yrmo",
+            "value": "201603",
+            "step": "yrmo:201603!March+2016"
+          },
+          "201604": {
+            "count": "12",
+            "label": "April 2016",
+            "field": "yrmo",
+            "value": "201604",
+            "step": "yrmo:201604!April+2016"
+          },
+          "201605": {
+            "count": "8",
+            "label": "May 2016",
+            "field": "yrmo",
+            "value": "201605",
+            "step": "yrmo:201605!May+2016"
+          },
+          "201606": {
+            "count": "5",
+            "label": "June 2016",
+            "field": "yrmo",
+            "value": "201606",
+            "step": "yrmo:201606!June+2016"
+          },
+          "201607": {
+            "count": "5",
+            "label": "July 2016",
+            "field": "yrmo",
+            "value": "201607",
+            "step": "yrmo:201607!July+2016"
+          },
+          "201608": {
+            "count": "5",
+            "label": "August 2016",
+            "field": "yrmo",
+            "value": "201608",
+            "step": "yrmo:201608!August+2016"
+          },
+          "201609": {
+            "count": "5",
+            "label": "September 2016",
+            "field": "yrmo",
+            "value": "201609",
+            "step": "yrmo:201609!September+2016"
+          },
+          "201610": {
+            "count": "6",
+            "label": "October 2016",
+            "field": "yrmo",
+            "value": "201610",
+            "step": "yrmo:201610!October+2016"
+          },
+          "201611": {
+            "count": "7",
+            "label": "November 2016",
+            "field": "yrmo",
+            "value": "201611",
+            "step": "yrmo:201611!November+2016"
+          },
+          "201612": {
+            "count": "11",
+            "label": "December 2016",
+            "field": "yrmo",
+            "value": "201612",
+            "step": "yrmo:201612!December+2016"
+          },
+          "201701": {
+            "count": "13",
+            "label": "January 2017",
+            "field": "yrmo",
+            "value": "201701",
+            "step": "yrmo:201701!January+2017"
+          },
+          "201702": {
+            "count": "33",
+            "label": "February 2017",
+            "field": "yrmo",
+            "value": "201702",
+            "step": "yrmo:201702!February+2017"
+          },
+          "201703": {
+            "count": "16",
+            "label": "March 2017",
+            "field": "yrmo",
+            "value": "201703",
+            "step": "yrmo:201703!March+2017"
+          },
+          "201704": {
+            "count": "7",
+            "label": "April 2017",
+            "field": "yrmo",
+            "value": "201704",
+            "step": "yrmo:201704!April+2017"
+          },
+          "201705": {
+            "count": "15",
+            "label": "May 2017",
+            "field": "yrmo",
+            "value": "201705",
+            "step": "yrmo:201705!May+2017"
+          },
+          "201706": {
+            "count": "8",
+            "label": "June 2017",
+            "field": "yrmo",
+            "value": "201706",
+            "step": "yrmo:201706!June+2017"
+          },
+          "201707": {
+            "count": "3",
+            "label": "July 2017",
+            "field": "yrmo",
+            "value": "201707",
+            "step": "yrmo:201707!July+2017"
+          },
+          "201708": {
+            "count": "5",
+            "label": "August 2017",
+            "field": "yrmo",
+            "value": "201708",
+            "step": "yrmo:201708!August+2017"
+          },
+          "201709": {
+            "count": "13",
+            "label": "September 2017",
+            "field": "yrmo",
+            "value": "201709",
+            "step": "yrmo:201709!September+2017"
+          },
+          "201710": {
+            "count": "7",
+            "label": "October 2017",
+            "field": "yrmo",
+            "value": "201710",
+            "step": "yrmo:201710!October+2017"
+          },
+          "201711": {
+            "count": "2",
+            "label": "November 2017",
+            "field": "yrmo",
+            "value": "201711",
+            "step": "yrmo:201711!November+2017"
+          },
+          "201712": {
+            "count": "2",
+            "label": "December 2017",
+            "field": "yrmo",
+            "value": "201712",
+            "step": "yrmo:201712!December+2017"
+          },
+          "201801": {
+            "count": "7",
+            "label": "January 2018",
+            "field": "yrmo",
+            "value": "201801",
+            "step": "yrmo:201801!January+2018"
+          },
+          "201802": {
+            "count": "5",
+            "label": "February 2018",
+            "field": "yrmo",
+            "value": "201802",
+            "step": "yrmo:201802!February+2018"
+          },
+          "201803": {
+            "count": "3",
+            "label": "March 2018",
+            "field": "yrmo",
+            "value": "201803",
+            "step": "yrmo:201803!March+2018"
+          },
+          "201804": {
+            "count": "2",
+            "label": "April 2018",
+            "field": "yrmo",
+            "value": "201804",
+            "step": "yrmo:201804!April+2018"
+          },
+          "201805": {
+            "count": "3",
+            "label": "May 2018",
+            "field": "yrmo",
+            "value": "201805",
+            "step": "yrmo:201805!May+2018"
+          },
+          "201806": {
+            "count": "12",
+            "label": "June 2018",
+            "field": "yrmo",
+            "value": "201806",
+            "step": "yrmo:201806!June+2018"
+          },
+          "201807": {
+            "count": "14",
+            "label": "July 2018",
+            "field": "yrmo",
+            "value": "201807",
+            "step": "yrmo:201807!July+2018"
+          },
+          "201808": {
+            "count": "5",
+            "label": "August 2018",
+            "field": "yrmo",
+            "value": "201808",
+            "step": "yrmo:201808!August+2018"
+          },
+          "201809": {
+            "count": "9",
+            "label": "September 2018",
+            "field": "yrmo",
+            "value": "201809",
+            "step": "yrmo:201809!September+2018"
+          },
+          "201810": {
+            "count": "13",
+            "label": "October 2018",
+            "field": "yrmo",
+            "value": "201810",
+            "step": "yrmo:201810!October+2018"
+          },
+          "201811": {
+            "count": "6",
+            "label": "November 2018",
+            "field": "yrmo",
+            "value": "201811",
+            "step": "yrmo:201811!November+2018"
+          },
+          "201812": {
+            "count": "8",
+            "label": "December 2018",
+            "field": "yrmo",
+            "value": "201812",
+            "step": "yrmo:201812!December+2018"
+          },
+          "201901": {
+            "count": "9",
+            "label": "January 2019",
+            "field": "yrmo",
+            "value": "201901",
+            "step": "yrmo:201901!January+2019"
+          },
+          "201902": {
+            "count": "14",
+            "label": "February 2019",
+            "field": "yrmo",
+            "value": "201902",
+            "step": "yrmo:201902!February+2019"
+          },
+          "201903": {
+            "count": "6",
+            "label": "March 2019",
+            "field": "yrmo",
+            "value": "201903",
+            "step": "yrmo:201903!March+2019"
+          },
+          "201904": {
+            "count": "10",
+            "label": "April 2019",
+            "field": "yrmo",
+            "value": "201904",
+            "step": "yrmo:201904!April+2019"
+          },
+          "201905": {
+            "count": "12",
+            "label": "May 2019",
+            "field": "yrmo",
+            "value": "201905",
+            "step": "yrmo:201905!May+2019"
+          },
+          "201906": {
+            "count": "3",
+            "label": "June 2019",
+            "field": "yrmo",
+            "value": "201906",
+            "step": "yrmo:201906!June+2019"
+          },
+          "201907": {
+            "count": "7",
+            "label": "July 2019",
+            "field": "yrmo",
+            "value": "201907",
+            "step": "yrmo:201907!July+2019"
+          },
+          "201908": {
+            "count": "6",
+            "label": "August 2019",
+            "field": "yrmo",
+            "value": "201908",
+            "step": "yrmo:201908!August+2019"
+          },
+          "201909": {
+            "count": "13",
+            "label": "September 2019",
+            "field": "yrmo",
+            "value": "201909",
+            "step": "yrmo:201909!September+2019"
+          },
+          "201910": {
+            "count": "13",
+            "label": "October 2019",
+            "field": "yrmo",
+            "value": "201910",
+            "step": "yrmo:201910!October+2019"
+          },
+          "201911": {
+            "count": "7",
+            "label": "November 2019",
+            "field": "yrmo",
+            "value": "201911",
+            "step": "yrmo:201911!November+2019"
+          },
+          "201912": {
+            "count": "6",
+            "label": "December 2019",
+            "field": "yrmo",
+            "value": "201912",
+            "step": "yrmo:201912!December+2019"
+          },
+          "202001": {
+            "count": "9",
+            "label": "January 2020",
+            "field": "yrmo",
+            "value": "202001",
+            "step": "yrmo:202001!January+2020"
+          },
+          "202002": {
+            "count": "16",
+            "label": "February 2020",
+            "field": "yrmo",
+            "value": "202002",
+            "step": "yrmo:202002!February+2020"
+          },
+          "202003": {
+            "count": "10",
+            "label": "March 2020",
+            "field": "yrmo",
+            "value": "202003",
+            "step": "yrmo:202003!March+2020"
+          },
+          "202004": {
+            "count": "6",
+            "label": "April 2020",
+            "field": "yrmo",
+            "value": "202004",
+            "step": "yrmo:202004!April+2020"
+          },
+          "202006": {
+            "count": "12",
+            "label": "June 2020",
+            "field": "yrmo",
+            "value": "202006",
+            "step": "yrmo:202006!June+2020"
+          },
+          "202007": {
+            "count": "7",
+            "label": "July 2020",
+            "field": "yrmo",
+            "value": "202007",
+            "step": "yrmo:202007!July+2020"
+          },
+          "202008": {
+            "count": "10",
+            "label": "August 2020",
+            "field": "yrmo",
+            "value": "202008",
+            "step": "yrmo:202008!August+2020"
+          },
+          "202009": {
+            "count": "12",
+            "label": "September 2020",
+            "field": "yrmo",
+            "value": "202009",
+            "step": "yrmo:202009!September+2020"
+          },
+          "202010": {
+            "count": "14",
+            "label": "October 2020",
+            "field": "yrmo",
+            "value": "202010",
+            "step": "yrmo:202010!October+2020"
+          },
+          "202011": {
+            "count": "13",
+            "label": "November 2020",
+            "field": "yrmo",
+            "value": "202011",
+            "step": "yrmo:202011!November+2020"
+          },
+          "202012": {
+            "count": "4",
+            "label": "December 2020",
+            "field": "yrmo",
+            "value": "202012",
+            "step": "yrmo:202012!December+2020"
+          },
+          "202101": {
+            "count": "5",
+            "label": "January 2021",
+            "field": "yrmo",
+            "value": "202101",
+            "step": "yrmo:202101!January+2021"
+          },
+          "202102": {
+            "count": "4",
+            "label": "February 2021",
+            "field": "yrmo",
+            "value": "202102",
+            "step": "yrmo:202102!February+2021"
+          },
+          "202103": {
+            "count": "7",
+            "label": "March 2021",
+            "field": "yrmo",
+            "value": "202103",
+            "step": "yrmo:202103!March+2021"
+          },
+          "202104": {
+            "count": "7",
+            "label": "April 2021",
+            "field": "yrmo",
+            "value": "202104",
+            "step": "yrmo:202104!April+2021"
+          },
+          "202105": {
+            "count": "5",
+            "label": "May 2021",
+            "field": "yrmo",
+            "value": "202105",
+            "step": "yrmo:202105!May+2021"
+          },
+          "202106": {
+            "count": "10",
+            "label": "June 2021",
+            "field": "yrmo",
+            "value": "202106",
+            "step": "yrmo:202106!June+2021"
+          },
+          "202107": {
+            "count": "4",
+            "label": "July 2021",
+            "field": "yrmo",
+            "value": "202107",
+            "step": "yrmo:202107!July+2021"
+          },
+          "202108": {
+            "count": "4",
+            "label": "August 2021",
+            "field": "yrmo",
+            "value": "202108",
+            "step": "yrmo:202108!August+2021"
+          },
+          "202109": {
+            "count": "7",
+            "label": "September 2021",
+            "field": "yrmo",
+            "value": "202109",
+            "step": "yrmo:202109!September+2021"
+          },
+          "202110": {
+            "count": "10",
+            "label": "October 2021",
+            "field": "yrmo",
+            "value": "202110",
+            "step": "yrmo:202110!October+2021"
+          },
+          "202111": {
+            "count": "3",
+            "label": "November 2021",
+            "field": "yrmo",
+            "value": "202111",
+            "step": "yrmo:202111!November+2021"
+          },
+          "202112": {
+            "count": "7",
+            "label": "December 2021",
+            "field": "yrmo",
+            "value": "202112",
+            "step": "yrmo:202112!December+2021"
+          },
+          "202201": {
+            "count": "5",
+            "label": "January 2022",
+            "field": "yrmo",
+            "value": "202201",
+            "step": "yrmo:202201!January+2022"
+          },
+          "202202": {
+            "count": "5",
+            "label": "February 2022",
+            "field": "yrmo",
+            "value": "202202",
+            "step": "yrmo:202202!February+2022"
+          },
+          "202203": {
+            "count": "3",
+            "label": "March 2022",
+            "field": "yrmo",
+            "value": "202203",
+            "step": "yrmo:202203!March+2022"
+          },
+          "202204": {
+            "count": "5",
+            "label": "April 2022",
+            "field": "yrmo",
+            "value": "202204",
+            "step": "yrmo:202204!April+2022"
+          },
+          "202205": {
+            "count": "2",
+            "label": "May 2022",
+            "field": "yrmo",
+            "value": "202205",
+            "step": "yrmo:202205!May+2022"
+          },
+          "202206": {
+            "count": "5",
+            "label": "June 2022",
+            "field": "yrmo",
+            "value": "202206",
+            "step": "yrmo:202206!June+2022"
+          },
+          "202207": {
+            "count": "6",
+            "label": "July 2022",
+            "field": "yrmo",
+            "value": "202207",
+            "step": "yrmo:202207!July+2022"
+          },
+          "202208": {
+            "count": "4",
+            "label": "August 2022",
+            "field": "yrmo",
+            "value": "202208",
+            "step": "yrmo:202208!August+2022"
+          },
+          "202209": {
+            "count": "4",
+            "label": "September 2022",
+            "field": "yrmo",
+            "value": "202209",
+            "step": "yrmo:202209!September+2022"
+          },
+          "202210": {
+            "count": "7",
+            "label": "October 2022",
+            "field": "yrmo",
+            "value": "202210",
+            "step": "yrmo:202210!October+2022"
+          },
+          "202211": {
+            "count": "3",
+            "label": "November 2022",
+            "field": "yrmo",
+            "value": "202211",
+            "step": "yrmo:202211!November+2022"
+          },
+          "202212": {
+            "count": "4",
+            "label": "December 2022",
+            "field": "yrmo",
+            "value": "202212",
+            "step": "yrmo:202212!December+2022"
+          },
+          "202301": {
+            "count": "12",
+            "label": "January 2023",
+            "field": "yrmo",
+            "value": "202301",
+            "step": "yrmo:202301!January+2023"
+          },
+          "202302": {
+            "count": "10",
+            "label": "February 2023",
+            "field": "yrmo",
+            "value": "202302",
+            "step": "yrmo:202302!February+2023"
+          },
+          "202303": {
+            "count": "9",
+            "label": "March 2023",
+            "field": "yrmo",
+            "value": "202303",
+            "step": "yrmo:202303!March+2023"
+          },
+          "202304": {
+            "count": "7",
+            "label": "April 2023",
+            "field": "yrmo",
+            "value": "202304",
+            "step": "yrmo:202304!April+2023"
+          },
+          "202305": {
+            "count": "15",
+            "label": "May 2023",
+            "field": "yrmo",
+            "value": "202305",
+            "step": "yrmo:202305!May+2023"
+          },
+          "202306": {
+            "count": "11",
+            "label": "June 2023",
+            "field": "yrmo",
+            "value": "202306",
+            "step": "yrmo:202306!June+2023"
+          },
+          "202307": {
+            "count": "8",
+            "label": "July 2023",
+            "field": "yrmo",
+            "value": "202307",
+            "step": "yrmo:202307!July+2023"
+          },
+          "202308": {
+            "count": "9",
+            "label": "August 2023",
+            "field": "yrmo",
+            "value": "202308",
+            "step": "yrmo:202308!August+2023"
+          },
+          "202309": {
+            "count": "16",
+            "label": "September 2023",
+            "field": "yrmo",
+            "value": "202309",
+            "step": "yrmo:202309!September+2023"
+          },
+          "202310": {
+            "count": "15",
+            "label": "October 2023",
+            "field": "yrmo",
+            "value": "202310",
+            "step": "yrmo:202310!October+2023"
+          },
+          "202311": {
+            "count": "13",
+            "label": "November 2023",
+            "field": "yrmo",
+            "value": "202311",
+            "step": "yrmo:202311!November+2023"
+          },
+          "202312": {
+            "count": "9",
+            "label": "December 2023",
+            "field": "yrmo",
+            "value": "202312",
+            "step": "yrmo:202312!December+2023"
+          },
+          "202401": {
+            "count": "26",
+            "label": "January 2024",
+            "field": "yrmo",
+            "value": "202401",
+            "step": "yrmo:202401!January+2024"
+          },
+          "202402": {
+            "count": "17",
+            "label": "February 2024",
+            "field": "yrmo",
+            "value": "202402",
+            "step": "yrmo:202402!February+2024"
+          },
+          "202403": {
+            "count": "14",
+            "label": "March 2024",
+            "field": "yrmo",
+            "value": "202403",
+            "step": "yrmo:202403!March+2024"
+          },
+          "202404": {
+            "count": "10",
+            "label": "April 2024",
+            "field": "yrmo",
+            "value": "202404",
+            "step": "yrmo:202404!April+2024"
+          },
+          "202405": {
+            "count": "13",
+            "label": "May 2024",
+            "field": "yrmo",
+            "value": "202405",
+            "step": "yrmo:202405!May+2024"
+          },
+          "202406": {
+            "count": "9",
+            "label": "June 2024",
+            "field": "yrmo",
+            "value": "202406",
+            "step": "yrmo:202406!June+2024"
+          },
+          "202407": {
+            "count": "10",
+            "label": "July 2024",
+            "field": "yrmo",
+            "value": "202407",
+            "step": "yrmo:202407!July+2024"
+          },
+          "202408": {
+            "count": "10",
+            "label": "August 2024",
+            "field": "yrmo",
+            "value": "202408",
+            "step": "yrmo:202408!August+2024"
+          },
+          "202409": {
+            "count": "25",
+            "label": "September 2024",
+            "field": "yrmo",
+            "value": "202409",
+            "step": "yrmo:202409!September+2024"
+          },
+          "202410": {
+            "count": "15",
+            "label": "October 2024",
+            "field": "yrmo",
+            "value": "202410",
+            "step": "yrmo:202410!October+2024"
+          },
+          "202411": {
+            "count": "14",
+            "label": "November 2024",
+            "field": "yrmo",
+            "value": "202411",
+            "step": "yrmo:202411!November+2024"
+          },
+          "202412": {
+            "count": "15",
+            "label": "December 2024",
+            "field": "yrmo",
+            "value": "202412",
+            "step": "yrmo:202412!December+2024"
+          },
+          "202501": {
+            "count": "26",
+            "label": "January 2025",
+            "field": "yrmo",
+            "value": "202501",
+            "step": "yrmo:202501!January+2025"
+          },
+          "202502": {
+            "count": "21",
+            "label": "February 2025",
+            "field": "yrmo",
+            "value": "202502",
+            "step": "yrmo:202502!February+2025"
+          },
+          "202503": {
+            "count": "17",
+            "label": "March 2025",
+            "field": "yrmo",
+            "value": "202503",
+            "step": "yrmo:202503!March+2025"
+          }
+        }
+      }
+    },
+    "default_date_format": "mdy",
+    "era_navigator": {
+      "load_path": "gnus-navigators-era\/load"
+    }
+  },
+  "nbcore_react_browse__nbcore-react-browse-table-pane-location-filter-modal": {
+    "instance_id": "nbcore-react-browse-table-pane-location-filter-modal",
+    "errors": [],
+    "config": {
+      "instance_id": "nbcore-react-browse-table-pane-location-filter-modal",
+      "react_path": "results",
+      "source_type": "NavigatorReactBrowseDataSource",
+      "results_per_page": "100",
+      "enable_filter": 1,
+      "use_advanced_filter_options": 0,
+      "defer_render": 1,
+      "strings": {
+        "button_prev_text": "Previous",
+        "button_next_text": "Next",
+        "filter_placeholder_text": "Enter Name of Location",
+        "filter_no_match": "No matches found.",
+        "results_count_text": "__COUNT__ __COUNTLABEL__",
+        "results_count_text_empty": "__COUNT__ __COUNTLABEL__",
+        "visible_range_text": "Showing __START__ to __END__",
+        "filtered_message_text": "(Filtered from __TOTAL__ __PLURAL__)"
+      },
+      "url_query": {
+        "p": "WORLDNEWS",
+        "t": "country:USA!USA\/stp:Web-Only+Source!Web-Only+Source\/continent:North+America!North+America\/city:Chicago+%28IL%29!Chicago+%28IL%29\/language:English!English",
+        "sort": "YMD_date:D",
+        "hide_duplicates": "2",
+        "maxresults": "60",
+        "f": "advanced",
+        "offset": "62",
+        "val-base-0": "immigration",
+        "fld-base-0": "alltext",
+        "bln-base-1": "or",
+        "val-base-1": "migrant",
+        "fld-base-1": "alltext",
+        "bln-base-2": "or",
+        "val-base-2": "migration",
+        "fld-base-2": "alltext",
+        "bln-base-3": "or",
+        "val-base-3": "border",
+        "fld-base-3": "Title",
+        "fld-nav-0": "YMD_date",
+        "val-nav-0": "2016 - 2025"
+      },
+      "multi": {
+        "enable": 1,
+        "show": 0,
+        "selectedRows": [],
+        "applyPosition": "above",
+        "strings": {
+          "toggle_list_label": "__SELECTTOGGLE__ __SELECTCOUNT__ Selected",
+          "clear_all_label": "Clear All",
+          "clear_all_confirm": "Are you sure you want to clear all of your selections?",
+          "apply_label": "Apply",
+          "haystack_label": "Multiple __PLURAL__ (__SELECTCOUNT__)"
+        },
+        "labelIndex": 0,
+        "uniqueIndex": 2
+      },
+      "sort": {
+        "order": "desc",
+        "index": 1
+      },
+      "label": "Location",
+      "plural": "Locations",
+      "meta": {
+        "count": "1",
+        "family": "geography",
+        "format": "sorted",
+        "id": "city",
+        "pagedCount": "1",
+        "pagedStart": "1"
+      }
+    },
+    "cols": [
+      {
+        "id": "label",
+        "type": "string",
+        "title": "Location",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1,
+        "multiLabel": 1,
+        "classes": [
+          "react-browse-table__item--filter-modal-label"
+        ]
+      },
+      {
+        "id": "count",
+        "type": "integer",
+        "title": "Articles",
+        "searchable": 0,
+        "sortable": 1,
+        "visible": 1,
+        "align": "right",
+        "thousandsSeparator": ","
+      },
+      {
+        "id": "step",
+        "type": "string",
+        "title": "Step",
+        "searchable": 0,
+        "sortable": 0,
+        "visible": 0,
+        "multiUnique": 1
+      }
+    ],
+    "rows": [
+      [
+        "Chicago (IL)",
+        "1022",
+        "city:Chicago+%28IL%29!Chicago+%28IL%29"
+      ]
+    ]
+  },
+  "nbcore_react_browse__nbcore-react-browse-table-pane-source-type-filter-modal": {
+    "instance_id": "nbcore-react-browse-table-pane-source-type-filter-modal",
+    "errors": [],
+    "config": {
+      "instance_id": "nbcore-react-browse-table-pane-source-type-filter-modal",
+      "react_path": "results",
+      "source_type": "NavigatorReactBrowseDataSource",
+      "results_per_page": "100",
+      "enable_filter": 1,
+      "use_advanced_filter_options": 0,
+      "defer_render": 1,
+      "strings": {
+        "button_prev_text": "\u2039 Previous",
+        "button_next_text": "Next \u203a",
+        "filter_placeholder_text": "Filter __LABEL__ list",
+        "filter_no_match": "No matches found.",
+        "results_count_text": "__COUNT__ __COUNTLABEL__",
+        "results_count_text_empty": "__COUNT__ __COUNTLABEL__",
+        "visible_range_text": "Showing __START__ to __END__",
+        "filtered_message_text": "(Filtered from __TOTAL__ __PLURAL__)"
+      },
+      "url_query": {
+        "p": "WORLDNEWS",
+        "t": "country:USA!USA\/stp:Web-Only+Source!Web-Only+Source\/continent:North+America!North+America\/city:Chicago+%28IL%29!Chicago+%28IL%29\/language:English!English",
+        "sort": "YMD_date:D",
+        "hide_duplicates": "2",
+        "maxresults": "60",
+        "f": "advanced",
+        "offset": "62",
+        "val-base-0": "immigration",
+        "fld-base-0": "alltext",
+        "bln-base-1": "or",
+        "val-base-1": "migrant",
+        "fld-base-1": "alltext",
+        "bln-base-2": "or",
+        "val-base-2": "migration",
+        "fld-base-2": "alltext",
+        "bln-base-3": "or",
+        "val-base-3": "border",
+        "fld-base-3": "Title",
+        "fld-nav-0": "YMD_date",
+        "val-nav-0": "2016 - 2025"
+      },
+      "multi": {
+        "enable": 1,
+        "show": 0,
+        "selectedRows": [],
+        "applyPosition": "above",
+        "strings": {
+          "toggle_list_label": "__SELECTTOGGLE__ __SELECTCOUNT__ Selected",
+          "clear_all_label": "Clear All",
+          "clear_all_confirm": "Are you sure you want to clear all of your selections?",
+          "apply_label": "Apply",
+          "haystack_label": "Multiple __PLURAL__ (__SELECTCOUNT__)"
+        },
+        "labelIndex": 0,
+        "uniqueIndex": 2
+      },
+      "sort": {
+        "order": "asc",
+        "index": 0
+      },
+      "label": "Source Type",
+      "plural": "Source Types",
+      "meta": {
+        "count": "1",
+        "family": "pubinfofam",
+        "format": "sorted",
+        "id": "stp"
+      }
+    },
+    "cols": [
+      {
+        "id": "label",
+        "type": "link",
+        "title": "Source Type",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1,
+        "template": "",
+        "linkText": "",
+        "multiLabel": 1,
+        "classes": [
+          "react-browse-table__item",
+          "react-browse-table__item--sourcetype",
+          "react-browse-table__item--__0__"
+        ]
+      },
+      {
+        "id": "count",
+        "type": "integer",
+        "title": "Articles",
+        "searchable": 0,
+        "sortable": 1,
+        "visible": 1,
+        "align": "right",
+        "thousandsSeparator": ","
+      },
+      {
+        "id": "step",
+        "type": "string",
+        "title": "Step",
+        "searchable": 0,
+        "sortable": 0,
+        "visible": 0,
+        "multiUnique": 1
+      }
+    ],
+    "rows": [
+      [
+        "Web-Only Source",
+        "1022",
+        "stp:Web-Only+Source!Web-Only+Source"
+      ]
+    ]
+  },
+  "nbcore_react_browse__nbcore-react-browse-table-pane-year-filter-modal": {
+    "instance_id": "nbcore-react-browse-table-pane-year-filter-modal",
+    "errors": [],
+    "config": {
+      "instance_id": "nbcore-react-browse-table-pane-year-filter-modal",
+      "react_path": "results",
+      "source_type": "NavigatorReactBrowseDataSource",
+      "results_per_page": "100",
+      "enable_filter": 1,
+      "use_advanced_filter_options": 0,
+      "defer_render": 1,
+      "strings": {
+        "button_prev_text": "\u2039 Previous",
+        "button_next_text": "Next \u203a",
+        "filter_placeholder_text": "Filter __LABEL__ List",
+        "filter_no_match": "No matches found.",
+        "results_count_text": "Select Years (__START__-__END__ of __TOTAL__)",
+        "results_count_text_empty": "Select Years",
+        "visible_range_text": "Select Years (__START__-__END__ of __TOTAL__)",
+        "filtered_message_text": "(Filtered from __TOTAL__ __PLURAL__)"
+      },
+      "url_query": {
+        "p": "WORLDNEWS",
+        "t": "country:USA!USA\/stp:Web-Only+Source!Web-Only+Source\/continent:North+America!North+America\/city:Chicago+%28IL%29!Chicago+%28IL%29\/language:English!English",
+        "sort": "YMD_date:D",
+        "hide_duplicates": "2",
+        "maxresults": "60",
+        "f": "advanced",
+        "offset": "62",
+        "val-base-0": "immigration",
+        "fld-base-0": "alltext",
+        "bln-base-1": "or",
+        "val-base-1": "migrant",
+        "fld-base-1": "alltext",
+        "bln-base-2": "or",
+        "val-base-2": "migration",
+        "fld-base-2": "alltext",
+        "bln-base-3": "or",
+        "val-base-3": "border",
+        "fld-base-3": "Title",
+        "fld-nav-0": "YMD_date",
+        "val-nav-0": "2016 - 2025"
+      },
+      "multi": {
+        "enable": 1,
+        "show": 0,
+        "selectedRows": [],
+        "applyPosition": "above",
+        "strings": {
+          "toggle_list_label": "__SELECTTOGGLE__ __SELECTCOUNT__ Selected",
+          "clear_all_label": "Clear All",
+          "clear_all_confirm": "Are you sure you want to clear all of your selections?",
+          "apply_label": "Apply",
+          "haystack_label": "Multiple __PLURAL__ (__SELECTCOUNT__)"
+        },
+        "labelIndex": 0,
+        "uniqueIndex": 2
+      },
+      "sort": {
+        "order": "asc",
+        "index": 0
+      },
+      "label": "Year",
+      "plural": "Years",
+      "meta": {
+        "count": "10",
+        "family": "temporal",
+        "format": "sorted",
+        "id": "year"
+      }
+    },
+    "cols": [
+      {
+        "id": "label",
+        "type": "link",
+        "title": "Year",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1,
+        "template": "",
+        "linkText": "",
+        "multiLabel": 1,
+        "classes": [
+          "react-browse-table__item",
+          "react-browse-table__item--year",
+          "react-browse-table__item--__0__"
+        ]
+      },
+      {
+        "id": "count",
+        "type": "integer",
+        "title": "Articles",
+        "searchable": 0,
+        "sortable": 1,
+        "visible": 1,
+        "align": "right",
+        "thousandsSeparator": ","
+      },
+      {
+        "id": "step",
+        "type": "string",
+        "title": "Step",
+        "searchable": 0,
+        "sortable": 0,
+        "visible": 0,
+        "multiUnique": 1
+      }
+    ],
+    "rows": [
+      [
+        "2016",
+        "90",
+        "year:2016!2016"
+      ],
+      [
+        "2017",
+        "124",
+        "year:2017!2017"
+      ],
+      [
+        "2018",
+        "87",
+        "year:2018!2018"
+      ],
+      [
+        "2019",
+        "106",
+        "year:2019!2019"
+      ],
+      [
+        "2020",
+        "113",
+        "year:2020!2020"
+      ],
+      [
+        "2021",
+        "73",
+        "year:2021!2021"
+      ],
+      [
+        "2022",
+        "53",
+        "year:2022!2022"
+      ],
+      [
+        "2023",
+        "134",
+        "year:2023!2023"
+      ],
+      [
+        "2024",
+        "178",
+        "year:2024!2024"
+      ],
+      [
+        "2025",
+        "64",
+        "year:2025!2025"
+      ]
+    ]
+  },
+  "nbcore_react_browse__nbcore-react-browse-table-pane-era-filter-modal": {
+    "instance_id": "nbcore-react-browse-table-pane-era-filter-modal",
+    "errors": [],
+    "config": {
+      "instance_id": "nbcore-react-browse-table-pane-era-filter-modal",
+      "react_path": "results",
+      "source_type": "NavigatorReactBrowseDataSource",
+      "results_per_page": "100",
+      "enable_filter": 1,
+      "use_advanced_filter_options": 0,
+      "defer_render": 1,
+      "strings": {
+        "button_prev_text": "\u2039 Previous",
+        "button_next_text": "Next \u203a",
+        "filter_placeholder_text": "Filter __LABEL__ list",
+        "filter_no_match": "No matches found.",
+        "results_count_text": "__COUNT__ __COUNTLABEL__",
+        "results_count_text_empty": "__COUNT__ __COUNTLABEL__",
+        "visible_range_text": "Showing __START__ to __END__",
+        "filtered_message_text": "(Filtered from __TOTAL__ __PLURAL__)"
+      },
+      "url_query": {
+        "p": "WORLDNEWS",
+        "t": "country:USA!USA\/stp:Web-Only+Source!Web-Only+Source\/continent:North+America!North+America\/city:Chicago+%28IL%29!Chicago+%28IL%29\/language:English!English",
+        "sort": "YMD_date:D",
+        "hide_duplicates": "2",
+        "maxresults": "60",
+        "f": "advanced",
+        "offset": "62",
+        "val-base-0": "immigration",
+        "fld-base-0": "alltext",
+        "bln-base-1": "or",
+        "val-base-1": "migrant",
+        "fld-base-1": "alltext",
+        "bln-base-2": "or",
+        "val-base-2": "migration",
+        "fld-base-2": "alltext",
+        "bln-base-3": "or",
+        "val-base-3": "border",
+        "fld-base-3": "Title",
+        "fld-nav-0": "YMD_date",
+        "val-nav-0": "2016 - 2025"
+      },
+      "multi": {
+        "enable": 1,
+        "show": 0,
+        "selectedRows": [],
+        "applyPosition": "above",
+        "strings": {
+          "toggle_list_label": "__SELECTTOGGLE__ __SELECTCOUNT__ Selected",
+          "clear_all_label": "Clear All",
+          "clear_all_confirm": "Are you sure you want to clear all of your selections?",
+          "apply_label": "Apply",
+          "haystack_label": "Multiple __PLURAL__ (__SELECTCOUNT__)"
+        },
+        "labelIndex": 0,
+        "uniqueIndex": 2
+      },
+      "sort": {
+        "order": "desc",
+        "index": 1
+      },
+      "label": "Era",
+      "plural": "Eras",
+      "meta": {
+        "count": "1",
+        "family": "temporal",
+        "format": "sorted",
+        "id": "era"
+      }
+    },
+    "cols": [
+      {
+        "id": "label",
+        "type": "link",
+        "title": "Era",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1,
+        "template": "",
+        "linkText": "",
+        "multiLabel": 1,
+        "sortBy": "label_sort"
+      },
+      {
+        "id": "count",
+        "type": "integer",
+        "title": "Count",
+        "searchable": 0,
+        "sortable": 1,
+        "visible": 1,
+        "align": "right",
+        "thousandsSeparator": ","
+      },
+      {
+        "id": "step",
+        "type": "string",
+        "title": "Step",
+        "searchable": 0,
+        "sortable": 0,
+        "visible": 0,
+        "multiUnique": 1
+      },
+      {
+        "id": "label_sort",
+        "title": "Sort",
+        "type": "integer",
+        "sortable": 1,
+        "searchable": 0,
+        "visible": 0
+      }
+    ],
+    "rows": [
+      [
+        "Dawn of the Millennium (2000 to 2019)",
+        "407",
+        "era:260!Dawn+of+the+Millennium+%282000+to+2019%29",
+        ""
+      ]
+    ]
+  },
+  "nbcore_react_browse__nbcore-react-browse-table-pane-presidentialera-filter-modal": {
+    "instance_id": "nbcore-react-browse-table-pane-presidentialera-filter-modal",
+    "errors": [],
+    "config": {
+      "instance_id": "nbcore-react-browse-table-pane-presidentialera-filter-modal",
+      "react_path": "results",
+      "source_type": "NavigatorReactBrowseDataSource",
+      "results_per_page": "100",
+      "enable_filter": 1,
+      "use_advanced_filter_options": 0,
+      "defer_render": 1,
+      "strings": {
+        "button_prev_text": "\u2039 Previous",
+        "button_next_text": "Next \u203a",
+        "filter_placeholder_text": "Filter __LABEL__ list",
+        "filter_no_match": "No matches found.",
+        "results_count_text": "__COUNT__ __COUNTLABEL__",
+        "results_count_text_empty": "__COUNT__ __COUNTLABEL__",
+        "visible_range_text": "Showing __START__ to __END__",
+        "filtered_message_text": "(Filtered from __TOTAL__ __PLURAL__)"
+      },
+      "url_query": {
+        "p": "WORLDNEWS",
+        "t": "country:USA!USA\/stp:Web-Only+Source!Web-Only+Source\/continent:North+America!North+America\/city:Chicago+%28IL%29!Chicago+%28IL%29\/language:English!English",
+        "sort": "YMD_date:D",
+        "hide_duplicates": "2",
+        "maxresults": "60",
+        "f": "advanced",
+        "offset": "62",
+        "val-base-0": "immigration",
+        "fld-base-0": "alltext",
+        "bln-base-1": "or",
+        "val-base-1": "migrant",
+        "fld-base-1": "alltext",
+        "bln-base-2": "or",
+        "val-base-2": "migration",
+        "fld-base-2": "alltext",
+        "bln-base-3": "or",
+        "val-base-3": "border",
+        "fld-base-3": "Title",
+        "fld-nav-0": "YMD_date",
+        "val-nav-0": "2016 - 2025"
+      },
+      "multi": {
+        "enable": 1,
+        "show": 0,
+        "selectedRows": [],
+        "applyPosition": "below",
+        "strings": {
+          "toggle_list_label": "__SELECTTOGGLE__ __SELECTCOUNT__ Selected",
+          "clear_all_label": "Clear All",
+          "clear_all_confirm": "Are you sure you want to clear all of your selections?",
+          "apply_label": "Apply",
+          "haystack_label": "Multiple __PLURAL__ (__SELECTCOUNT__)"
+        },
+        "labelIndex": 0,
+        "uniqueIndex": 2
+      },
+      "sort": {
+        "order": "desc",
+        "index": 1
+      },
+      "label": "Presidential Era",
+      "plural": "Presidential Eras",
+      "meta": {
+        "count": "3",
+        "family": "temporal",
+        "format": "sorted",
+        "id": "presidentialera"
+      }
+    },
+    "cols": [
+      {
+        "id": "label",
+        "type": "link",
+        "title": "Presidential Era",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1,
+        "template": "",
+        "linkText": "",
+        "multiLabel": 1,
+        "sortBy": "label_sort"
+      },
+      {
+        "id": "count",
+        "type": "integer",
+        "title": "Count",
+        "searchable": 0,
+        "sortable": 1,
+        "visible": 1,
+        "align": "right",
+        "thousandsSeparator": ","
+      },
+      {
+        "id": "step",
+        "type": "string",
+        "title": "Step",
+        "searchable": 0,
+        "sortable": 0,
+        "visible": 0,
+        "multiUnique": 1
+      },
+      {
+        "id": "label_sort",
+        "title": "Sort",
+        "type": "integer",
+        "sortable": 1,
+        "searchable": 0,
+        "visible": 0
+      }
+    ],
+    "rows": [
+      [
+        "Joseph Biden (2021-present)",
+        "445",
+        "presidentialera:450!Joseph+Biden+%282021-present%29",
+        ""
+      ],
+      [
+        "Donald Trump (2017-2021)",
+        "427",
+        "presidentialera:440!Donald+Trump+%282017-2021%29",
+        ""
+      ],
+      [
+        "Barack Obama (2009-2017)",
+        "96",
+        "presidentialera:430!Barack+Obama+%282009-2017%29",
+        ""
+      ]
+    ]
+  },
+  "nbcore_react_browse__nbcore-react-browse-table-pane-language-filter-modal": {
+    "instance_id": "nbcore-react-browse-table-pane-language-filter-modal",
+    "errors": [],
+    "config": {
+      "instance_id": "nbcore-react-browse-table-pane-language-filter-modal",
+      "react_path": "results",
+      "source_type": "NavigatorReactBrowseDataSource",
+      "results_per_page": "20",
+      "enable_filter": 1,
+      "use_advanced_filter_options": 0,
+      "defer_render": 1,
+      "strings": {
+        "button_prev_text": "\u2039 Previous",
+        "button_next_text": "Next \u203a",
+        "filter_placeholder_text": "Filter __LABEL__ list",
+        "filter_no_match": "No matches found.",
+        "results_count_text": "__COUNT__ __COUNTLABEL__",
+        "results_count_text_empty": "__COUNT__ __COUNTLABEL__",
+        "visible_range_text": "Showing __START__ to __END__",
+        "filtered_message_text": "(Filtered from __TOTAL__ __PLURAL__)"
+      },
+      "url_query": {
+        "p": "WORLDNEWS",
+        "t": "country:USA!USA\/stp:Web-Only+Source!Web-Only+Source\/continent:North+America!North+America\/city:Chicago+%28IL%29!Chicago+%28IL%29\/language:English!English",
+        "sort": "YMD_date:D",
+        "hide_duplicates": "2",
+        "maxresults": "60",
+        "f": "advanced",
+        "offset": "62",
+        "val-base-0": "immigration",
+        "fld-base-0": "alltext",
+        "bln-base-1": "or",
+        "val-base-1": "migrant",
+        "fld-base-1": "alltext",
+        "bln-base-2": "or",
+        "val-base-2": "migration",
+        "fld-base-2": "alltext",
+        "bln-base-3": "or",
+        "val-base-3": "border",
+        "fld-base-3": "Title",
+        "fld-nav-0": "YMD_date",
+        "val-nav-0": "2016 - 2025"
+      },
+      "multi": {
+        "enable": 1,
+        "show": 0,
+        "selectedRows": [],
+        "applyPosition": "above",
+        "strings": {
+          "toggle_list_label": "__SELECTTOGGLE__ __SELECTCOUNT__ Selected",
+          "clear_all_label": "Clear All",
+          "clear_all_confirm": "Are you sure you want to clear all of your selections?",
+          "apply_label": "Apply",
+          "haystack_label": "Multiple __PLURAL__ (__SELECTCOUNT__)"
+        },
+        "labelIndex": 0,
+        "uniqueIndex": 10
+      },
+      "sort": {
+        "order": "desc",
+        "index": 9
+      },
+      "label": "Language",
+      "plural": "Languages",
+      "meta": {
+        "count": "1",
+        "family": "pubinfofam",
+        "format": "sorted",
+        "id": "language"
+      }
+    },
+    "cols": [
+      {
+        "id": "label",
+        "type": "link",
+        "title": "Language",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 1,
+        "template": "",
+        "linkText": "",
+        "multiLabel": 1
+      },
+      {
+        "id": "meta\/Family-step",
+        "type": "link",
+        "title": "Related Titles",
+        "searchable": 0,
+        "sortable": 1,
+        "visible": 0,
+        "template": "",
+        "linkText": ""
+      },
+      {
+        "id": "meta\/Source Type",
+        "type": "string",
+        "title": "Source Type",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 0
+      },
+      {
+        "id": "meta\/Format",
+        "type": "string",
+        "title": "Format",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 0
+      },
+      {
+        "id": "meta\/Language",
+        "type": "string",
+        "title": "Language",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 0
+      },
+      {
+        "id": "meta\/Date Range",
+        "type": "string",
+        "title": "Date Range",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 0
+      },
+      {
+        "id": "meta\/Location",
+        "type": "string",
+        "title": "Location",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 0
+      },
+      {
+        "id": "meta\/Title Count",
+        "type": "string",
+        "title": "Title Count",
+        "searchable": 0,
+        "sortable": 0,
+        "visible": 0
+      },
+      {
+        "id": "meta\/Topic",
+        "type": "list",
+        "title": "Topic",
+        "searchable": 1,
+        "sortable": 1,
+        "visible": 0,
+        "allowHtml": 0
+      },
+      {
+        "id": "count",
+        "type": "integer",
+        "title": "Count",
+        "searchable": 0,
+        "sortable": 1,
+        "visible": 1,
+        "align": "right",
+        "thousandsSeparator": ","
+      },
+      {
+        "id": "step",
+        "type": "string",
+        "title": "Step",
+        "searchable": 0,
+        "sortable": 0,
+        "visible": 0,
+        "multiUnique": 1
+      }
+    ],
+    "rows": [
+      [
+        "English",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        [
+          ""
+        ],
+        "1022",
+        "language:English!English"
+      ]
+    ]
+  },
+  "nbcore_sort": {
+    "zustatCategoryOverride": "co_sc_sort"
+  },
+  "gnus_shared": {
+    "pub_list_disabled": false,
+    "pub_browse_disabled": false,
+    "find_a_topic_disabled": false,
+    "search_placeholder_text": "Enter any keyword, such as a name, event or topic",
+    "search_placeholder_text_date": "Enter a date or date range",
+    "default_date_format": "mdy"
+  },
+  "googleanalytics": {
+    "account": [
+      "G-VR37SQR64F"
+    ],
+    "trackOutbound": 1,
+    "trackMailto": 1,
+    "trackDownload": 1,
+    "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"
+  },
+  "nbcore_google": {
+    "endpoints": {
+      "login": "\/apps\/news\/google\/oauth",
+      "logout": "\/apps\/news\/google\/logout",
+      "status": "\/apps\/news\/google\/status",
+      "file_list": "\/apps\/news\/google\/file\/list",
+      "file_create": "\/apps\/news\/google\/file\/create",
+      "file_update": "\/apps\/news\/google\/file\/update"
+    },
+    "google_auth_complete": "google_auth_complete"
+  },
+  "nbcore_downtime": {
+    "environment": "gnus",
+    "url": "https:\/\/tools.newsbank.com\/downtime\/sites.jsonp",
+    "force": false
+  }
+}

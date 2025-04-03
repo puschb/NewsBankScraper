@@ -1,0 +1,17 @@
+{
+  "location": {
+    "country": "USA",
+    "state": "NY",
+    "city": "New York"
+  },
+  "hide_duplicates": true,
+  "date_range": {
+    "start": "2016",
+    "end": "2026"
+  },
+  "search": {
+    "query": "",
+    "fields": ""
+  },
+  "max_results_per_page": 100
+}
